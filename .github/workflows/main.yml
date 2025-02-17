@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: ThreatFox IOC 데이터 수집 및 변환
-      run: python threatfox_ioc.py
+      run: python threatfox.py
 
     - name: 변경 사항 확인
       run: |
