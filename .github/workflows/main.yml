@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *'  # 6시간마다 실행
   workflow_dispatch:  # 수동 실행 가능
 
+permissions:
+  contents: write
+
 jobs:
   collect-and-process:
     runs-on: ubuntu-latest
