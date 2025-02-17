@@ -7,8 +7,8 @@ import re  # 정규식 사용
 THREATFOX_URL = "https://threatfox.abuse.ch/export/json/recent/"
 
 # JSON 파일 저장 위치 (웹 서버 접근 가능하도록 설정)
-RAW_OUTPUT_FILE = "C:\\Users\\jane00\\Desktop\\KISA\\threatfox_raw_data.json"
-OUTPUT_FILE = "C:\\Users\\jane00\\Desktop\\KISA\\threatfox_cb_feed.json"
+RAW_OUTPUT_FILE = "data/threatfox_raw_data.json"
+OUTPUT_FILE = "data/threatfox_cb_feed.json"
 
 def clean_ip(ip_port):
     """ip:port 형식에서 IP만 추출"""
