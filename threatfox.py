@@ -96,25 +96,26 @@ def fetch_threatfox_data():
         return []
 
 def generate_cb_feed(iocs):
-    """Carbon Black EDR에 맞는 JSON 피드를 생성 (malware_printable 기준 그룹화)"""
+    """Carbon Black EDR에 맞는 JSON 피드를 생성"""
     try:
         timestamp = int(time.time())
-        reports = []
         malware_dict = {}
 
         for ioc in iocs:
             malware_printable = ioc["malware_printable"]
             ioc_type = ioc["type"]
             ioc_value = ioc["value"]
-            reference = ioc["reference"]
             score = ioc["score"]
+
+            # ThreatFox의 검색 URL을 malware_printable 값에 따라 생성
+            reference_url = f"https://threatfox.abuse.ch/browse.php?search=malware%3A{malware_printable}"
 
             if malware_printable not in malware_dict:
                 malware_dict[malware_printable] = {
                     "id": f"threatfox-{malware_printable}",
                     "timestamp": timestamp,
                     "title": f"ThreatFox IOC - {malware_printable}",
-                    "link": reference,
+                    "link": reference_url,  # 기존 reference 대신 ThreatFox 검색 URL 사용
                     "score": score,
                     "iocs": {}
                 }
@@ -128,8 +129,6 @@ def generate_cb_feed(iocs):
         for malware_printable in malware_dict:
             for ioc_type in malware_dict[malware_printable]["iocs"]:
                 malware_dict[malware_printable]["iocs"][ioc_type] = list(malware_dict[malware_printable]["iocs"][ioc_type])
-        
-        reports = list(malware_dict.values())
 
         feed = {
             "feedinfo": {
@@ -140,7 +139,7 @@ def generate_cb_feed(iocs):
                 "category": "Open Source",
                 "icon": "https://threatfox.abuse.ch/static/img/favicon.ico"
             },
-            "reports": reports
+            "reports": list(malware_dict.values())
         }
 
         with open(OUTPUT_FILE, "w") as f:
