@@ -5,7 +5,7 @@ on:
     paths:
       - '.github/workflows/main.yml'  # XML 파일이 변경될 때 자동 실행
   schedule:
-    - cron: '0 */1 * * *'  # 1시간마다 실행 
+    - cron: '0 */6 * * *'  # 6시간마다 실행 
   workflow_dispatch:  # 수동 실행 가능
 
 
