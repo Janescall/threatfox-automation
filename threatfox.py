@@ -14,6 +14,12 @@ def clean_ip(ip_port):
     """ip:port 형식에서 IP만 추출"""
     return re.match(r"^([\d\.]+):\d+$", ip_port).group(1) if ":" in ip_port else ip_port
 
+def remove_www(domain):
+    """www.이 포함된 도메인에서 www. 제거"""
+    if domain.startswith("www."):
+        return domain[4:]  # 'www.' 제거
+    return domain
+
 def fetch_threatfox_data():
     """ThreatFox에서 최신 IOC 데이터를 가져와 리스트로 변환"""
     try:
@@ -43,6 +49,10 @@ def fetch_threatfox_data():
                 reference = entry.get("reference", "https://threatfox.abuse.ch")
                 malware_printable = entry.get("malware_printable", "Unknown")
                 score = entry.get("confidence_level", 50)  # 기본값 50 설정
+
+                # www. 제거 (도메인 타입만 적용)
+                if ioc_type == "domain":
+                    ioc_value = remove_www(ioc_value)   
                 
                 # URL 타입 제거
                 if ioc_type == "url":
