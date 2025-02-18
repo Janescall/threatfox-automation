@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import re  # 정규식 사용
+import ipaddress
 
 # ThreatFox 최신 IOC 데이터 URL
 THREATFOX_URL = "https://threatfox.abuse.ch/export/json/recent/"
@@ -9,6 +10,10 @@ THREATFOX_URL = "https://threatfox.abuse.ch/export/json/recent/"
 # JSON 파일 저장 위치 (웹 서버 접근 가능하도록 설정)
 RAW_OUTPUT_FILE = "data/threatfox_raw_data.json"
 OUTPUT_FILE = "data/threatfox_cb_feed.json"
+
+# 제외할 IP 및 IP 대역 목록
+EXCLUDED_IPS = {"127.0.0.1", "204.79.197.203"}
+EXCLUDED_NETWORKS = [ipaddress.IPv4Network("103.21.244.0/22", strict=False)]
 
 def clean_ip(ip_port):
     """ip:port 형식에서 IP만 추출"""
@@ -19,6 +24,19 @@ def remove_www(domain):
     if domain.startswith("www."):
         return domain[4:]  # 'www.' 제거
     return domain
+
+def is_excluded_ip(ip):
+    """ 특정한 IP 및 IP 대역에 포함되는지 확인 """
+    try:
+        ip_obj = ipaddress.IPv4Address(ip)
+        if ip in EXCLUDED_IPS:
+            return True
+        for network in EXCLUDED_NETWORKS:
+            if ip_obj in network:
+                return True
+    except ValueError:  # IP가 아닌 값 (예: 도메인 등)은 예외 처리
+        return False
+    return False
 
 def fetch_threatfox_data():
     """ThreatFox에서 최신 IOC 데이터를 가져와 리스트로 변환"""
@@ -62,6 +80,11 @@ def fetch_threatfox_data():
                 if ioc_type == "ip:port":
                     ioc_value = clean_ip(ioc_value)
                     ioc_type = "ip"  # Carbon Black은 "ip" 타입을 사용
+
+                # IP 필터링 (변환된 IP 포함)
+                if ioc_type == "ip" and is_excluded_ip(ioc_value):
+                    print(f"🚫 제외된 IP: {ioc_value}")
+                    continue  # 제외된 IP는 리스트에 추가하지 않음
                 
                 if ioc_type and ioc_value:
                     iocs.add((ioc_type, ioc_value, reference, malware_printable, score))
