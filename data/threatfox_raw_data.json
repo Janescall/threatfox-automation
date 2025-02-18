@@ -1,4 +1,38 @@
 {
+    "1414590": [
+        {
+            "ioc_value": "check.lmdgg.icu",
+            "ioc_type": "domain",
+            "threat_type": "payload_delivery",
+            "malware": "js.clearfake",
+            "malware_alias": null,
+            "malware_printable": "ClearFake",
+            "first_seen_utc": "2025-02-18 06:42:35",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "ClearFake",
+            "anonymous": "0",
+            "reporter": "threatcat_ch"
+        }
+    ],
+    "1414592": [
+        {
+            "ioc_value": "https://check.lmdgg.icu/gkcxv.google",
+            "ioc_type": "url",
+            "threat_type": "payload_delivery",
+            "malware": "js.clearfake",
+            "malware_alias": null,
+            "malware_printable": "ClearFake",
+            "first_seen_utc": "2025-02-18 06:42:34",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "clearfake",
+            "anonymous": "1",
+            "reporter": "ttakvam"
+        }
+    ],
     "1414591": [
         {
             "ioc_value": "http://93.123.84.246/limonswat.php",
@@ -24817,125 +24851,6 @@
             "tags": "NjRAT",
             "anonymous": "0",
             "reporter": "abuse_ch"
-        }
-    ],
-    "1413307": [
-        {
-            "ioc_value": "147.185.221.25:63018",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-02-16 06:42:20",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,xworm",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413305": [
-        {
-            "ioc_value": "images-hunting.gl.at.ply.gg",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-02-16 06:42:04",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,xworm",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413306": [
-        {
-            "ioc_value": "not-warm.gl.at.ply.gg",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-02-16 06:42:04",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,xworm",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413304": [
-        {
-            "ioc_value": "https://pastebin.com/raw/GU7QAwAQ",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-02-16 06:41:41",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,xworm",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413302": [
-        {
-            "ioc_value": "bz-frnd1.ydns.eu",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-02-16 06:41:13",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,quasar",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413303": [
-        {
-            "ioc_value": "systcisd.ddnsking.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-02-16 06:41:13",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,quasar",
-            "anonymous": "0",
-            "reporter": "juroots"
-        }
-    ],
-    "1413301": [
-        {
-            "ioc_value": "msiserver.net",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.njrat",
-            "malware_alias": "Bladabindi,Lime-Worm",
-            "malware_printable": "NjRAT",
-            "first_seen_utc": "2025-02-16 06:40:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "",
-            "tags": "c2,njrat",
-            "anonymous": "0",
-            "reporter": "juroots"
         }
     ]
 }
