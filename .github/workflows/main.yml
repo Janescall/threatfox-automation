@@ -1,9 +1,13 @@
 name: ThreatFox IOC
 
 on:
+  push:
+    paths:
+      - '.github/workflows/main.yml'  # XML 파일이 변경될 때 자동 실행
   schedule:
-    - cron: '*/5 * * * *'  # 12시간마다 실행
+    - cron: '*/5 * * * *'  # 5분마다 실행
   workflow_dispatch:  # 수동 실행 가능
+
 
 permissions:
   contents: write
