@@ -1,4 +1,378 @@
 {
+    "1440700": [
+        {
+            "ioc_value": "121.36.23.206:5555",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-03-04 06:14:36",
+            "last_seen_utc": null,
+            "confidence_level": 50,
+            "reference": "https://www.shodan.io/host/121.36.23.206#5555",
+            "tags": "c2,cobaltstrike,cs-watermark-100000,shodan",
+            "anonymous": "0",
+            "reporter": "juroots"
+        }
+    ],
+    "1440698": [
+        {
+            "ioc_value": "195.200.19.58:31337",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-03-04 06:13:59",
+            "last_seen_utc": null,
+            "confidence_level": 50,
+            "reference": "https://www.shodan.io/host/195.200.19.58#31337",
+            "tags": "c2,shodan,sliver",
+            "anonymous": "0",
+            "reporter": "juroots"
+        }
+    ],
+    "1440699": [
+        {
+            "ioc_value": "134.209.63.21:31337",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-03-04 06:13:59",
+            "last_seen_utc": null,
+            "confidence_level": 50,
+            "reference": "https://www.shodan.io/host/134.209.63.21#31337",
+            "tags": "c2,shodan,sliver",
+            "anonymous": "0",
+            "reporter": "juroots"
+        }
+    ],
+    "1440673": [
+        {
+            "ioc_value": "http://87.120.84.108/videoToWindowsTesttrackDownloads.php",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-03-04 04:05:16",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "DCRat",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1440672": [
+        {
+            "ioc_value": "34.240.169.56:19573",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.netsupportmanager_rat",
+            "malware_alias": "NetSupport",
+            "malware_printable": "NetSupportManager RAT",
+            "first_seen_utc": "2025-03-04 04:01:22",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/34.240.169.56",
+            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440669": [
+        {
+            "ioc_value": "ph62003.yblds888.uk",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:18",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.90.34.185+ph62003.yblds888.uk",
+            "tags": "AS138915,C2,censys,Havoc,KAOPU-HK",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440670": [
+        {
+            "ioc_value": "webmail.gamesofart.com",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:18",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/104.21.16.1+webmail.gamesofart.com",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440671": [
+        {
+            "ioc_value": "webmail.offonnetwork.com",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:18",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/104.21.74.250+webmail.offonnetwork.com",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440667": [
+        {
+            "ioc_value": "cpanel.pointtotechiworld.xyz",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:17",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/172.67.165.154+cpanel.pointtotechiworld.xyz",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440668": [
+        {
+            "ioc_value": "cpcalendars.enjoyufabet.xyz",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:17",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/104.21.24.105+cpcalendars.enjoyufabet.xyz",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440664": [
+        {
+            "ioc_value": "webdisk.cgibusiness.xyz",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:16",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/172.67.131.232+webdisk.cgibusiness.xyz",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440665": [
+        {
+            "ioc_value": "webdisk.homeremodel.website",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:16",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/172.67.156.46+webdisk.homeremodel.website",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440666": [
+        {
+            "ioc_value": "ev.tresquno.live",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:16",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/169.150.236.106+ev.tresquno.live",
+            "tags": "AS60068,C2,CDN77,censys,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440663": [
+        {
+            "ioc_value": "webmail.bottomofbusiness.website",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-03-04 04:01:15",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/172.67.201.196+webmail.bottomofbusiness.website",
+            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440661": [
+        {
+            "ioc_value": "74.50.120.106:8808",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-03-04 04:01:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/74.50.120.106",
+            "tags": "AS29802,AsyncRAT,C2,censys,HVC-AS,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440662": [
+        {
+            "ioc_value": "128.90.108.196:2000",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-03-04 04:01:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/128.90.108.196",
+            "tags": "AS40861,AsyncRAT,C2,censys,PARAD-40-ASN,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440660": [
+        {
+            "ioc_value": "195.177.94.100:8080",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.remcos",
+            "malware_alias": "RemcosRAT,Remvio,Socmer",
+            "malware_printable": "Remcos",
+            "first_seen_utc": "2025-03-04 04:00:47",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/195.177.94.100",
+            "tags": "AS214961,C2,censys,RAT,Remcos,STELLARGROUPSAS",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440659": [
+        {
+            "ioc_value": "121.41.108.106:10000",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-03-04 04:00:35",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/121.41.108.106",
+            "tags": "ALIBABA-CN-NET,AS37963,C2,censys,CobaltStrike,cs-watermark-391144938",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440658": [
+        {
+            "ioc_value": "190.54.3.244:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-03-04 04:00:34",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/190.54.3.244",
+            "tags": "AS6429,C2,censys,CobaltStrike,cs-watermark-987654321,Telmex",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1440657": [
+        {
+            "ioc_value": "http://avensrp.fvds.ru/ServerTrackDump/js/js/4downloadsGameGame/DownloadsGeneratorprovider/async/ExternalTotestWordpress.php",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-03-04 03:05:17",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "DCRat",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1440656": [
+        {
+            "ioc_value": "http://a1090709.xsph.ru/f1bbaf6b.php",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-03-04 02:50:17",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "DCRat",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1440654": [
+        {
+            "ioc_value": "http://a1088739.xsph.ru/9f1b8aa0.php",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-03-04 02:15:18",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "DCRat",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
     "1440653": [
         {
             "ioc_value": "164.92.163.239:3898",
@@ -7287,7 +7661,7 @@
             "last_seen_utc": null,
             "confidence_level": 100,
             "reference": null,
-            "tags": "tier-2",
+            "tags": "tier-1",
             "anonymous": "0",
             "reporter": "Rony"
         }
@@ -21842,635 +22216,6 @@
             "tags": "clearfake",
             "anonymous": "1",
             "reporter": "ttakvam"
-        }
-    ],
-    "1439336": [
-        {
-            "ioc_value": "http://87.251.66.162/providerprotectdleCentral.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-02 05:55:17",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "DCRat",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439335": [
-        {
-            "ioc_value": "https://centrehotel.vn/wp1/Panel/fre.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lokipws",
-            "malware_alias": "Burkina,Loki,LokiBot,LokiPWS",
-            "malware_printable": "Loki Password Stealer (PWS)",
-            "first_seen_utc": "2025-03-02 05:45:19",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/b586b0b3e7634618d5f4d84c338928456664f1f65fe1b250ec4dd8283df82717/",
-            "tags": "lokibot",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439334": [
-        {
-            "ioc_value": "http://centrehotel.vn/wp1/Panel/fre.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lokipws",
-            "malware_alias": "Burkina,Loki,LokiBot,LokiPWS",
-            "malware_printable": "Loki Password Stealer (PWS)",
-            "first_seen_utc": "2025-03-02 05:40:15",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "Loki",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439332": [
-        {
-            "ioc_value": "https://centrehotel.vn/wp/Panel/fre.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lokipws",
-            "malware_alias": "Burkina,Loki,LokiBot,LokiPWS",
-            "malware_printable": "Loki Password Stealer (PWS)",
-            "first_seen_utc": "2025-03-02 05:20:13",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/29e030c28b998d7e994c5084dc5682bd367a7678f27607638b232502d0950693/",
-            "tags": "lokibot",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439331": [
-        {
-            "ioc_value": "http://centrehotel.vn/wp/Panel/fre.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lokipws",
-            "malware_alias": "Burkina,Loki,LokiBot,LokiPWS",
-            "malware_printable": "Loki Password Stealer (PWS)",
-            "first_seen_utc": "2025-03-02 05:15:14",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "Loki",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439310": [
-        {
-            "ioc_value": "192.140.163.10:60000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "elf.kaiji",
-            "malware_alias": null,
-            "malware_printable": "Kaiji",
-            "first_seen_utc": "2025-03-02 04:01:18",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/192.140.163.10",
-            "tags": "AS146817,C2,censys,FXNET",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439309": [
-        {
-            "ioc_value": "47.129.226.81:2096",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-02 04:01:12",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/47.129.226.81",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439306": [
-        {
-            "ioc_value": "webmail.viralbookshub.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:09",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.95.30+webmail.viralbookshub.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439307": [
-        {
-            "ioc_value": "cpcalendars.reprtgeneralshub.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:09",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.136.30+cpcalendars.reprtgeneralshub.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439308": [
-        {
-            "ioc_value": "cpcalendars.bestonenewznets.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:09",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.128.47+cpcalendars.bestonenewznets.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439303": [
-        {
-            "ioc_value": "webmail.fieldznorms.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.149.4+webmail.fieldznorms.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439304": [
-        {
-            "ioc_value": "cpcalendars.firstgamezzdiary.website",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.64.1+cpcalendars.firstgamezzdiary.website",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439305": [
-        {
-            "ioc_value": "cpanel.fashionof11.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.147.79+cpanel.fashionof11.com",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439299": [
-        {
-            "ioc_value": "webmail.proonlinehub.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.140.198+webmail.proonlinehub.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439300": [
-        {
-            "ioc_value": "cpcontacts.cgibusiness.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.12.27+cpcontacts.cgibusiness.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439301": [
-        {
-            "ioc_value": "ec2-54-216-172-128.eu-west-1.compute.amazonaws.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/54.216.172.128+ec2-54-216-172-128.eu-west-1.compute.amazonaws.com",
-            "tags": "AMAZON-02,AS16509,C2,censys,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439302": [
-        {
-            "ioc_value": "webdisk.apkhubnewz.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.64.1+webdisk.apkhubnewz.com",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439296": [
-        {
-            "ioc_value": "webmail.businessnewznetwork.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:06",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.112.1+webmail.businessnewznetwork.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439297": [
-        {
-            "ioc_value": "cpcontacts.dmspotzera.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:06",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.150.203+cpcontacts.dmspotzera.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439298": [
-        {
-            "ioc_value": "cpanel.expressnewzgames.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:06",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.37.253+cpanel.expressnewzgames.com",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439293": [
-        {
-            "ioc_value": "cpcalendars.welovetotogames.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:05",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.16.1+cpcalendars.welovetotogames.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439294": [
-        {
-            "ioc_value": "cpcontacts.ufa4games.website",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:05",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.128.165+cpcontacts.ufa4games.website",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439295": [
-        {
-            "ioc_value": "webdisk.top10gamesofoto1.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:05",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.64.1+webdisk.top10gamesofoto1.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439290": [
-        {
-            "ioc_value": "cpanel.bestofufabetgames.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:04",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.21.77.71+cpanel.bestofufabetgames.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439291": [
-        {
-            "ioc_value": "135.181.172.67:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:04",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/135.181.172.67",
-            "tags": "AS24940,C2,censys,Havoc,HETZNER-AS",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439292": [
-        {
-            "ioc_value": "webmail.reprtgeneralshub.xyz",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-02 04:01:04",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.136.30+webmail.reprtgeneralshub.xyz",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439289": [
-        {
-            "ioc_value": "181.162.131.25:8080",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-03-02 04:01:00",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/181.162.131.25",
-            "tags": "AS7418,C2,censys,Quasar,RAT,TELEFONICA",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439288": [
-        {
-            "ioc_value": "65.109.176.86:50555",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "apk.hook",
-            "malware_alias": null,
-            "malware_printable": "Hook",
-            "first_seen_utc": "2025-03-02 04:00:59",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/65.109.176.86",
-            "tags": "AS24940,C2,censys,HETZNER-AS,Hookbot",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439286": [
-        {
-            "ioc_value": "128.90.113.43:2000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-02 04:00:55",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/128.90.113.43",
-            "tags": "AS40861,AsyncRAT,C2,censys,PARAD-40-ASN,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439287": [
-        {
-            "ioc_value": "128.90.113.43:8808",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-02 04:00:55",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/128.90.113.43",
-            "tags": "AS40861,AsyncRAT,C2,censys,PARAD-40-ASN,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439285": [
-        {
-            "ioc_value": "74.50.120.106:8080",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-02 04:00:54",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/74.50.120.106",
-            "tags": "AS29802,AsyncRAT,C2,censys,HVC-AS,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439284": [
-        {
-            "ioc_value": "23.106.133.239:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.pupy",
-            "malware_alias": "Patpoopy",
-            "malware_printable": "pupy",
-            "first_seen_utc": "2025-03-02 04:00:35",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/23.106.133.239",
-            "tags": "AS25820,C2,censys,IT7NET,Pupy,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439283": [
-        {
-            "ioc_value": "172.81.132.221:6699",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-03-02 04:00:34",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.81.132.221",
-            "tags": "AS27176,C2,censys,DATAWAGON,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439282": [
-        {
-            "ioc_value": "8.138.22.215:8089",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-03-02 04:00:23",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/8.138.22.215",
-            "tags": "ALIBABA-CN-NET,AS37963,C2,censys,CobaltStrike,cs-watermark-987654321",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1439281": [
-        {
-            "ioc_value": "95.164.5.131:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-03-02 02:48:00",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "CobaltStrike,drb-ra",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439280": [
-        {
-            "ioc_value": "http://140061cm.nyanyash.ru/_SecurehttpDbAsyncWordpressWptemp.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-02 01:50:13",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "DCRat",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1439279": [
-        {
-            "ioc_value": "http://230852cm.nyashk.ru/ExternaltojsAuthGameserverlocal.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-02 01:40:13",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "DCRat",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
         }
     ]
 }
