@@ -1,4 +1,2792 @@
 {
+    "1462935": [
+        {
+            "ioc_value": "http://45.164.177.187:10642/Mozi.m",
+            "ioc_type": "url",
+            "threat_type": "payload_delivery",
+            "malware": "elf.mozi",
+            "malware_alias": null,
+            "malware_printable": "Mozi",
+            "first_seen_utc": "2025-04-02 00:40:10",
+            "last_seen_utc": null,
+            "confidence_level": 50,
+            "reference": null,
+            "tags": null,
+            "anonymous": "0",
+            "reporter": "sicehicetf"
+        }
+    ],
+    "1462928": [
+        {
+            "ioc_value": "80.91.223.172:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "elf.bashlite",
+            "malware_alias": "gayfgt,Gafgyt,qbot,torlus,lizkebab",
+            "malware_printable": "Bashlite",
+            "first_seen_utc": "2025-04-02 00:02:33",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/80.91.223.172",
+            "tags": "AS49581,C2,censys,FERDINANDZINK,Gafgyt,open-dir",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462924": [
+        {
+            "ioc_value": "mail2.fbads.store",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-02 00:02:25",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/143.198.143.90+mail2.fbads.store",
+            "tags": "AS14061,censys,DIGITALOCEAN-ASN,EvilGinx,panel,Phishing",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462925": [
+        {
+            "ioc_value": "live.fbads.store",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-02 00:02:25",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/143.198.143.90+live.fbads.store",
+            "tags": "AS14061,censys,DIGITALOCEAN-ASN,EvilGinx,panel,Phishing",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462926": [
+        {
+            "ioc_value": "ahab.fbads.store",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-02 00:02:25",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/143.198.143.90+ahab.fbads.store",
+            "tags": "AS14061,censys,DIGITALOCEAN-ASN,EvilGinx,panel,Phishing",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462927": [
+        {
+            "ioc_value": "2.fbads.store",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-02 00:02:25",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/143.198.143.90+2.fbads.store",
+            "tags": "AS14061,censys,DIGITALOCEAN-ASN,EvilGinx,panel,Phishing",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462923": [
+        {
+            "ioc_value": "46.137.55.13:4444",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.netsupportmanager_rat",
+            "malware_alias": "NetSupport",
+            "malware_printable": "NetSupportManager RAT",
+            "first_seen_utc": "2025-04-02 00:02:13",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/46.137.55.13",
+            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462917": [
+        {
+            "ioc_value": "160.124.65.252:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.252",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462918": [
+        {
+            "ioc_value": "148.66.21.234:443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/148.66.21.234",
+            "tags": "AS45753,C2,censys,DcRAT,NETSEC-HK,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462919": [
+        {
+            "ioc_value": "160.124.65.247:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.247",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462920": [
+        {
+            "ioc_value": "160.124.65.247:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.247",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462921": [
+        {
+            "ioc_value": "160.124.135.185:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.185",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462922": [
+        {
+            "ioc_value": "160.124.65.253:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:12",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.253",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462912": [
+        {
+            "ioc_value": "160.124.65.236:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:11",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.236",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462913": [
+        {
+            "ioc_value": "154.92.54.164:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:11",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.164",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462914": [
+        {
+            "ioc_value": "154.216.35.6:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:11",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.6",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462915": [
+        {
+            "ioc_value": "154.216.35.6:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:11",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.6",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462916": [
+        {
+            "ioc_value": "160.124.65.246:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:11",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.246",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462907": [
+        {
+            "ioc_value": "154.216.35.21:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.21",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462908": [
+        {
+            "ioc_value": "160.124.65.235:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.235",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462909": [
+        {
+            "ioc_value": "160.124.65.245:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.245",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462910": [
+        {
+            "ioc_value": "154.216.35.19:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.19",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462911": [
+        {
+            "ioc_value": "154.216.35.4:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.4",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462901": [
+        {
+            "ioc_value": "154.216.35.20:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.20",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462902": [
+        {
+            "ioc_value": "160.124.65.237:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.237",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462903": [
+        {
+            "ioc_value": "154.92.54.163:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.163",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462904": [
+        {
+            "ioc_value": "160.124.65.231:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.231",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462905": [
+        {
+            "ioc_value": "160.124.65.231:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.231",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462906": [
+        {
+            "ioc_value": "154.92.54.190:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.190",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462896": [
+        {
+            "ioc_value": "154.216.35.14:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:08",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.14",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462897": [
+        {
+            "ioc_value": "154.216.35.2:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:08",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.2",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462898": [
+        {
+            "ioc_value": "154.216.35.2:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:08",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.2",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462899": [
+        {
+            "ioc_value": "154.92.54.184:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:08",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.184",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462900": [
+        {
+            "ioc_value": "160.124.135.163:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:08",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.163",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462890": [
+        {
+            "ioc_value": "160.124.65.233:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.233",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462891": [
+        {
+            "ioc_value": "160.124.65.242:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.242",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462892": [
+        {
+            "ioc_value": "160.124.30.43:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.43",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462893": [
+        {
+            "ioc_value": "160.124.65.254:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.254",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462894": [
+        {
+            "ioc_value": "154.216.35.30:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.30",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462895": [
+        {
+            "ioc_value": "154.216.35.30:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:07",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.30",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462885": [
+        {
+            "ioc_value": "160.124.30.34:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:06",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.34",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462886": [
+        {
+            "ioc_value": "23.235.158.6:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:06",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/23.235.158.6",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462887": [
+        {
+            "ioc_value": "160.124.30.42:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:06",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.42",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462888": [
+        {
+            "ioc_value": "154.216.35.26:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:06",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.26",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462889": [
+        {
+            "ioc_value": "160.124.65.233:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:06",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.233",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462880": [
+        {
+            "ioc_value": "160.124.65.249:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:05",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.249",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462881": [
+        {
+            "ioc_value": "160.124.65.249:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:05",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.249",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462882": [
+        {
+            "ioc_value": "160.124.135.172:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:05",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.172",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462883": [
+        {
+            "ioc_value": "23.235.146.86:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:05",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/23.235.146.86",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462884": [
+        {
+            "ioc_value": "160.124.65.248:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:05",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.248",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462875": [
+        {
+            "ioc_value": "154.92.54.187:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:04",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.187",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462876": [
+        {
+            "ioc_value": "154.92.54.172:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:04",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.172",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462877": [
+        {
+            "ioc_value": "154.216.35.24:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:04",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.24",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462878": [
+        {
+            "ioc_value": "154.216.35.28:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:04",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.28",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462879": [
+        {
+            "ioc_value": "148.66.21.236:443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:04",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/148.66.21.236",
+            "tags": "AS45753,C2,censys,DcRAT,NETSEC-HK,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462869": [
+        {
+            "ioc_value": "160.124.65.238:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.238",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462870": [
+        {
+            "ioc_value": "160.124.65.238:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.238",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462871": [
+        {
+            "ioc_value": "154.216.35.10:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.10",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462872": [
+        {
+            "ioc_value": "154.216.35.10:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.10",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462873": [
+        {
+            "ioc_value": "160.124.30.56:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.56",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462874": [
+        {
+            "ioc_value": "154.216.35.22:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:03",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.22",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462863": [
+        {
+            "ioc_value": "160.124.65.226:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.226",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462864": [
+        {
+            "ioc_value": "160.124.30.58:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.58",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462865": [
+        {
+            "ioc_value": "154.92.54.168:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.168",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462866": [
+        {
+            "ioc_value": "160.124.135.171:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.171",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462867": [
+        {
+            "ioc_value": "160.124.65.227:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.227",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462868": [
+        {
+            "ioc_value": "154.92.54.177:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.177",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462862": [
+        {
+            "ioc_value": "160.124.65.228:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:01",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.228",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462856": [
+        {
+            "ioc_value": "154.216.35.25:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.25",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462857": [
+        {
+            "ioc_value": "154.216.35.25:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.25",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462858": [
+        {
+            "ioc_value": "160.124.30.55:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.55",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462859": [
+        {
+            "ioc_value": "160.124.30.47:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.47",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462860": [
+        {
+            "ioc_value": "23.235.158.2:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/23.235.158.2",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462861": [
+        {
+            "ioc_value": "160.124.65.228:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:02:00",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.228",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462850": [
+        {
+            "ioc_value": "160.124.30.60:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.60",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462851": [
+        {
+            "ioc_value": "160.124.30.37:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.37",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462852": [
+        {
+            "ioc_value": "154.216.35.8:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.8",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462853": [
+        {
+            "ioc_value": "154.216.35.8:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.8",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462854": [
+        {
+            "ioc_value": "154.216.35.15:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.15",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462855": [
+        {
+            "ioc_value": "160.124.30.46:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:59",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.46",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462844": [
+        {
+            "ioc_value": "160.124.135.170:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.170",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462845": [
+        {
+            "ioc_value": "160.124.30.49:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.49",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462846": [
+        {
+            "ioc_value": "160.124.65.251:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.251",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462847": [
+        {
+            "ioc_value": "160.124.65.251:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.251",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462848": [
+        {
+            "ioc_value": "160.124.30.36:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.36",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462849": [
+        {
+            "ioc_value": "160.124.30.59:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:58",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.59",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462838": [
+        {
+            "ioc_value": "154.216.35.23:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.23",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462839": [
+        {
+            "ioc_value": "160.124.30.54:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.54",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462840": [
+        {
+            "ioc_value": "160.124.65.239:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.239",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462841": [
+        {
+            "ioc_value": "154.216.35.27:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.27",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462842": [
+        {
+            "ioc_value": "154.216.35.18:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.18",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462843": [
+        {
+            "ioc_value": "154.216.35.18:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:57",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.18",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462833": [
+        {
+            "ioc_value": "154.92.54.175:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.175",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462834": [
+        {
+            "ioc_value": "154.92.54.165:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.165",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462835": [
+        {
+            "ioc_value": "154.216.35.7:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.7",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462836": [
+        {
+            "ioc_value": "154.216.35.7:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.7",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462837": [
+        {
+            "ioc_value": "154.216.35.23:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.23",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462827": [
+        {
+            "ioc_value": "154.216.35.29:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.29",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462828": [
+        {
+            "ioc_value": "160.124.65.244:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.244",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462829": [
+        {
+            "ioc_value": "160.124.65.244:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.244",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462830": [
+        {
+            "ioc_value": "160.124.135.182:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.182",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462831": [
+        {
+            "ioc_value": "154.92.54.185:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.185",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462832": [
+        {
+            "ioc_value": "160.124.135.173:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:55",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.173",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462822": [
+        {
+            "ioc_value": "160.124.65.234:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:54",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.234",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462823": [
+        {
+            "ioc_value": "154.216.35.12:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:54",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.12",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462824": [
+        {
+            "ioc_value": "154.216.35.9:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:54",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.9",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462825": [
+        {
+            "ioc_value": "154.216.35.9:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:54",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.9",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462826": [
+        {
+            "ioc_value": "160.124.135.164:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:54",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.164",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462816": [
+        {
+            "ioc_value": "154.216.35.3:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.3",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462817": [
+        {
+            "ioc_value": "154.216.35.3:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.3",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462818": [
+        {
+            "ioc_value": "154.216.35.17:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.216.35.17",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462819": [
+        {
+            "ioc_value": "160.124.135.188:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.188",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462820": [
+        {
+            "ioc_value": "160.124.30.51:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.51",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462821": [
+        {
+            "ioc_value": "160.124.65.234:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.234",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462811": [
+        {
+            "ioc_value": "160.124.135.177:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:52",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.177",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462812": [
+        {
+            "ioc_value": "160.124.65.232:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:52",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.232",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462813": [
+        {
+            "ioc_value": "160.124.65.232:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:52",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.232",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462814": [
+        {
+            "ioc_value": "160.124.30.62:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:52",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.62",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462815": [
+        {
+            "ioc_value": "160.124.65.230:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:52",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.230",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462806": [
+        {
+            "ioc_value": "154.92.54.176:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.176",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462807": [
+        {
+            "ioc_value": "23.235.158.19:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/23.235.158.19",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462808": [
+        {
+            "ioc_value": "160.124.135.165:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.165",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462809": [
+        {
+            "ioc_value": "160.124.30.61:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.61",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462810": [
+        {
+            "ioc_value": "160.124.135.180:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.180",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462800": [
+        {
+            "ioc_value": "160.124.30.39:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.39",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462801": [
+        {
+            "ioc_value": "154.92.54.166:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.166",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462802": [
+        {
+            "ioc_value": "154.92.54.180:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.180",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462803": [
+        {
+            "ioc_value": "160.124.135.169:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.135.169",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462804": [
+        {
+            "ioc_value": "160.124.65.240:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.240",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462805": [
+        {
+            "ioc_value": "154.92.54.178:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:50",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.178",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462795": [
+        {
+            "ioc_value": "154.92.54.186:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/154.92.54.186",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462796": [
+        {
+            "ioc_value": "160.124.30.35:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.35",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462797": [
+        {
+            "ioc_value": "160.124.30.52:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.30.52",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462798": [
+        {
+            "ioc_value": "160.124.65.250:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.250",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462799": [
+        {
+            "ioc_value": "160.124.65.241:8849",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-02 00:01:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/160.124.65.241",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462794": [
+        {
+            "ioc_value": "143.244.46.149:55016",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.venom",
+            "malware_alias": null,
+            "malware_printable": "Venom RAT",
+            "first_seen_utc": "2025-04-02 00:01:46",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/143.244.46.149",
+            "tags": "AS212238,C2,CDNEXT,censys,RAT,Venom",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462793": [
+        {
+            "ioc_value": "43.225.58.100:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "apk.hook",
+            "malware_alias": null,
+            "malware_printable": "Hook",
+            "first_seen_utc": "2025-04-02 00:01:33",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/43.225.58.100",
+            "tags": "AS62468,C2,censys,HKCLOUDX,Hookbot",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462792": [
+        {
+            "ioc_value": "196.251.84.194:993",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-02 00:01:28",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/196.251.84.194",
+            "tags": "AS401120,AsyncRAT,C2,censys,CHEAPY-HOST,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462791": [
+        {
+            "ioc_value": "45.88.186.198:7077",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-02 00:01:27",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/45.88.186.198",
+            "tags": "AS23470,AsyncRAT,C2,censys,RAT,RELIABLESITE",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462790": [
+        {
+            "ioc_value": "114.55.11.144:8443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-04-02 00:01:02",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/114.55.11.144",
+            "tags": "ALIBABA-CN-NET,AS37963,C2,censys,Sliver",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462784": [
+        {
+            "ioc_value": "2za55fsge8fbj.cfc-execute.bj.baidubce.com",
+            "ioc_type": "domain",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 22:54:06",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "CobaltStrike,drb-ra",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462633": [
+        {
+            "ioc_value": "84.212.64.20:995",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.qakbot",
+            "malware_alias": "Oakboat,Pinkslipbot,Qbot,Quakbot",
+            "malware_printable": "QakBot",
+            "first_seen_utc": "2025-04-01 20:57:21",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "drb-ra,Qakbot,Qbot,Quakbot",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462632": [
+        {
+            "ioc_value": "45.55.224.10:8888",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-04-01 20:50:59",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "drb-ra,Sliver",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462631": [
+        {
+            "ioc_value": "45.141.233.87:443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.eye_pyramid",
+            "malware_alias": null,
+            "malware_printable": "Eye Pyramid",
+            "first_seen_utc": "2025-04-01 20:50:50",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "drb-ra,EyePyramid",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462630": [
+        {
+            "ioc_value": "194.35.12.15:2053",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-04-01 20:48:19",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "drb-ra,Sliver",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462629": [
+        {
+            "ioc_value": "85.9.210.132:9000",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.mimikatz",
+            "malware_alias": null,
+            "malware_printable": "MimiKatz",
+            "first_seen_utc": "2025-04-01 20:02:20",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/85.9.210.132",
+            "tags": "AS202053,C2,censys,hacktool,Mimikatz,open-dir,UPCLOUD",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462628": [
+        {
+            "ioc_value": "176.65.144.18:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "elf.bashlite",
+            "malware_alias": "gayfgt,Gafgyt,qbot,torlus,lizkebab",
+            "malware_printable": "Bashlite",
+            "first_seen_utc": "2025-04-01 20:02:10",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/176.65.144.18",
+            "tags": "AS215240,C2,censys,Gafgyt,NETRESEARCH,open-dir",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462626": [
+        {
+            "ioc_value": "103.60.148.11:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-01 20:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/103.60.148.11",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462627": [
+        {
+            "ioc_value": "103.60.148.13:8848",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.dcrat",
+            "malware_alias": "DarkCrystal RAT",
+            "malware_printable": "DCRat",
+            "first_seen_utc": "2025-04-01 20:01:51",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/103.60.148.13",
+            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462625": [
+        {
+            "ioc_value": "38.132.122.177:45677",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.havoc",
+            "malware_alias": "Havokiz",
+            "malware_printable": "Havoc",
+            "first_seen_utc": "2025-04-01 20:01:47",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/38.132.122.177",
+            "tags": "AS9009,C2,censys,Havoc,M247",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462624": [
+        {
+            "ioc_value": "198.244.130.241:7443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-01 20:01:35",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/198.244.130.241",
+            "tags": "AS16276,C2,censys,Mythic,OVH",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462621": [
+        {
+            "ioc_value": "196.251.84.194:8883",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-01 20:01:30",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/196.251.84.194",
+            "tags": "AS401120,AsyncRAT,C2,censys,CHEAPY-HOST,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462622": [
+        {
+            "ioc_value": "46.109.0.125:8808",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-01 20:01:30",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/46.109.0.125",
+            "tags": "APOLLO-AS,AS12578,AsyncRAT,C2,censys,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462623": [
+        {
+            "ioc_value": "78.171.42.106:59",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-01 20:01:30",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/78.171.42.106",
+            "tags": "AS9121,AsyncRAT,C2,censys,RAT,TTNET",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462620": [
+        {
+            "ioc_value": "123.56.160.155:60002",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-04-01 20:01:26",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/123.56.160.155",
+            "tags": "ALIBABA-CN-NET,AS37963,C2,censys,payload,Sliver",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462619": [
+        {
+            "ioc_value": "123.60.16.239:443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 20:00:47",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/123.60.16.239",
+            "tags": "AS55990,C2,censys,CobaltStrike,cs-watermark-666666666,HWCSNET",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462618": [
+        {
+            "ioc_value": "121.36.0.126:443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 20:00:45",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/121.36.0.126",
+            "tags": "AS55990,C2,censys,CobaltStrike,cs-watermark-391144938,HWCSNET",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462616": [
+        {
+            "ioc_value": "49.232.171.41:8080",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 20:00:44",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/49.232.171.41",
+            "tags": "AS45090,C2,censys,CobaltStrike,cs-watermark-987654321,TENCENT-NET-AP",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462617": [
+        {
+            "ioc_value": "185.208.158.227:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 20:00:44",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/185.208.158.227",
+            "tags": "AS42624,C2,censys,CobaltStrike,cs-watermark-987654321,SWISSNETWORK02",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1462615": [
+        {
+            "ioc_value": "156.225.17.236:8817",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-01 19:20:16",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": null,
+            "tags": "CobaltStrike,drb-ra",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1462605": [
+        {
+            "ioc_value": "https://check.dobai.icu/gkcxv.google",
+            "ioc_type": "url",
+            "threat_type": "payload_delivery",
+            "malware": "js.clearfake",
+            "malware_alias": null,
+            "malware_printable": "ClearFake",
+            "first_seen_utc": "2025-04-01 18:58:38",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "clearfake",
+            "anonymous": "1",
+            "reporter": "ttakvam"
+        }
+    ],
+    "1462603": [
+        {
+            "ioc_value": "http://192.15.10.49:37420/Mozi.m",
+            "ioc_type": "url",
+            "threat_type": "payload_delivery",
+            "malware": "elf.mozi",
+            "malware_alias": null,
+            "malware_printable": "Mozi",
+            "first_seen_utc": "2025-04-01 18:40:08",
+            "last_seen_utc": null,
+            "confidence_level": 50,
+            "reference": null,
+            "tags": null,
+            "anonymous": "0",
+            "reporter": "sicehicetf"
+        }
+    ],
+    "1462602": [
+        {
+            "ioc_value": "check.donau.icu",
+            "ioc_type": "domain",
+            "threat_type": "payload_delivery",
+            "malware": "js.clearfake",
+            "malware_alias": null,
+            "malware_printable": "ClearFake",
+            "first_seen_utc": "2025-04-01 18:27:53",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "clearfake",
+            "anonymous": "1",
+            "reporter": "ttakvam"
+        }
+    ],
+    "1462601": [
+        {
+            "ioc_value": "https://check.donau.icu/gkcxv.google",
+            "ioc_type": "url",
+            "threat_type": "payload_delivery",
+            "malware": "js.clearfake",
+            "malware_alias": null,
+            "malware_printable": "ClearFake",
+            "first_seen_utc": "2025-04-01 18:27:49",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": null,
+            "tags": "clearfake",
+            "anonymous": "1",
+            "reporter": "ttakvam"
+        }
+    ],
     "1462591": [
         {
             "ioc_value": "check.gihua.icu",
@@ -11302,1332 +14090,6 @@
             "tags": "clearfake",
             "anonymous": "1",
             "reporter": "ttakvam"
-        }
-    ],
-    "1461907": [
-        {
-            "ioc_value": "http://103.158.97.141:33192/Mozi.m",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "elf.mozi",
-            "malware_alias": null,
-            "malware_printable": "Mozi",
-            "first_seen_utc": "2025-03-31 00:40:07",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": null,
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "sicehicetf"
-        }
-    ],
-    "1461906": [
-        {
-            "ioc_value": "cpcontacts.a.multi-canale.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "elf.bashlite",
-            "malware_alias": "gayfgt,Gafgyt,qbot,torlus,lizkebab",
-            "malware_printable": "Bashlite",
-            "first_seen_utc": "2025-03-31 00:02:00",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.168.101.27+cpcontacts.a.multi-canale.com",
-            "tags": "AS-COLOCROSSING,AS36352,C2,censys,Gafgyt,open-dir",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461905": [
-        {
-            "ioc_value": "cpcalendars.a.multi-canale.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "elf.bashlite",
-            "malware_alias": "gayfgt,Gafgyt,qbot,torlus,lizkebab",
-            "malware_printable": "Bashlite",
-            "first_seen_utc": "2025-03-31 00:01:59",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/104.168.101.27+cpcalendars.a.multi-canale.com",
-            "tags": "AS-COLOCROSSING,AS36352,C2,censys,Gafgyt,open-dir",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461904": [
-        {
-            "ioc_value": "154.58.204.91:9000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-03-31 00:01:52",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/154.58.204.91",
-            "tags": "AS174,censys,COGENT-174,EvilGinx,panel,Phishing",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461902": [
-        {
-            "ioc_value": "3.22.221.240:502",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-31 00:01:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/3.22.221.240",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461903": [
-        {
-            "ioc_value": "3.22.221.240:49502",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-31 00:01:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/3.22.221.240",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461899": [
-        {
-            "ioc_value": "101.108.71.54:7443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-31 00:01:41",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/101.108.71.54",
-            "tags": "AS23969,C2,censys,Netsupport,RAT,TOT-NET",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461900": [
-        {
-            "ioc_value": "18.196.250.35:60000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-31 00:01:41",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/18.196.250.35",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461901": [
-        {
-            "ioc_value": "18.196.250.35:8000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-03-31 00:01:41",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/18.196.250.35",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461897": [
-        {
-            "ioc_value": "148.66.21.235:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-31 00:01:40",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/148.66.21.235",
-            "tags": "AS45753,C2,censys,DcRAT,NETSEC-HK,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461898": [
-        {
-            "ioc_value": "148.66.21.237:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-31 00:01:40",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/148.66.21.237",
-            "tags": "AS45753,C2,censys,DcRAT,NETSEC-HK,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461894": [
-        {
-            "ioc_value": "3.68.171.119:18876",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-31 00:01:39",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/3.68.171.119",
-            "tags": "AMAZON-02,AS16509,C2,censys,DcRAT,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461895": [
-        {
-            "ioc_value": "154.213.48.73:8848",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-31 00:01:39",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/154.213.48.73",
-            "tags": "AS132839,C2,censys,DcRAT,POWERLINE-AS-AP,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461896": [
-        {
-            "ioc_value": "148.66.21.238:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.dcrat",
-            "malware_alias": "DarkCrystal RAT",
-            "malware_printable": "DCRat",
-            "first_seen_utc": "2025-03-31 00:01:39",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/148.66.21.238",
-            "tags": "AS45753,C2,censys,DcRAT,NETSEC-HK,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461893": [
-        {
-            "ioc_value": "79.72.70.85:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-31 00:01:34",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/79.72.70.85",
-            "tags": "AS31898,C2,censys,Havoc,ORACLE-BMC-31898",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461892": [
-        {
-            "ioc_value": "176.65.138.231:80",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "apk.hook",
-            "malware_alias": null,
-            "malware_printable": "Hook",
-            "first_seen_utc": "2025-03-31 00:01:22",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/176.65.138.231",
-            "tags": "AS215462,BUGGZ-HOSTING,C2,censys,Hookbot",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461891": [
-        {
-            "ioc_value": "78.171.42.106:3000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-31 00:01:16",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/78.171.42.106",
-            "tags": "AS9121,AsyncRAT,C2,censys,RAT,TTNET",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461888": [
-        {
-            "ioc_value": "128.90.113.71:4000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-31 00:01:15",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/128.90.113.71",
-            "tags": "AS40861,AsyncRAT,C2,censys,PARAD-40-ASN,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461889": [
-        {
-            "ioc_value": "128.90.113.71:8808",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-31 00:01:15",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/128.90.113.71",
-            "tags": "AS40861,AsyncRAT,C2,censys,PARAD-40-ASN,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461890": [
-        {
-            "ioc_value": "176.65.144.103:6606",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-31 00:01:15",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/176.65.144.103",
-            "tags": "AS215240,AsyncRAT,C2,censys,NETRESEARCH,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461887": [
-        {
-            "ioc_value": "38.255.57.7:8808",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-31 00:01:14",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/38.255.57.7",
-            "tags": "AS-HYONIX-US,AS931,AsyncRAT,C2,censys,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461885": [
-        {
-            "ioc_value": "196.251.71.248:2404",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-03-31 00:00:48",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/196.251.71.248",
-            "tags": "AS401120,C2,censys,CHEAPY-HOST,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461886": [
-        {
-            "ioc_value": "182.237.50.200:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-03-31 00:00:48",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/182.237.50.200",
-            "tags": "AS216425,C2,censys,HANARIN-AS,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461884": [
-        {
-            "ioc_value": "108.181.199.101:2404",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-03-31 00:00:47",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/108.181.199.101",
-            "tags": "AS40676,C2,censys,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461883": [
-        {
-            "ioc_value": "3.91.147.61:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.darkcomet",
-            "malware_alias": "Breut,Fynloski,klovbot",
-            "malware_printable": "DarkComet",
-            "first_seen_utc": "2025-03-31 00:00:45",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/3.91.147.61",
-            "tags": "AMAZON-AES,AS14618,C2,censys,DarkComet,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461882": [
-        {
-            "ioc_value": "156.247.10.43:56680",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-03-31 00:00:33",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/156.247.10.43",
-            "tags": "AS133199,C2,censys,CobaltStrike,cs-watermark-987654321,SONDERCLOUDLIMITED-AS-AP",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461861": [
-        {
-            "ioc_value": "https://check.zixit.icu/gkcxv.google",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.clearfake",
-            "malware_alias": null,
-            "malware_printable": "ClearFake",
-            "first_seen_utc": "2025-03-30 21:45:53",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "clearfake",
-            "anonymous": "1",
-            "reporter": "ttakvam"
-        }
-    ],
-    "1461858": [
-        {
-            "ioc_value": "201.191.171.216:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.qakbot",
-            "malware_alias": "Oakboat,Pinkslipbot,Qbot,Quakbot",
-            "malware_printable": "QakBot",
-            "first_seen_utc": "2025-03-30 20:48:24",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "drb-ra,Qakbot,Qbot,Quakbot",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461857": [
-        {
-            "ioc_value": "188.23.172.141:8000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.eye_pyramid",
-            "malware_alias": null,
-            "malware_printable": "Eye Pyramid",
-            "first_seen_utc": "2025-03-30 20:47:17",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "drb-ra,EyePyramid",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461855": [
-        {
-            "ioc_value": "107.189.27.163:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.sliver",
-            "malware_alias": null,
-            "malware_printable": "Sliver",
-            "first_seen_utc": "2025-03-30 20:43:42",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "drb-ra,Sliver",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461856": [
-        {
-            "ioc_value": "107.189.27.163:8888",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.sliver",
-            "malware_alias": null,
-            "malware_printable": "Sliver",
-            "first_seen_utc": "2025-03-30 20:43:42",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "drb-ra,Sliver",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461854": [
-        {
-            "ioc_value": "1.94.123.21:60000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-03-30 20:43:03",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "drb-ra,RAT",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461850": [
-        {
-            "ioc_value": "176.65.142.34:19000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.rhadamanthys",
-            "malware_alias": null,
-            "malware_printable": "Rhadamanthys",
-            "first_seen_utc": "2025-03-30 20:02:18",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/176.65.142.34",
-            "tags": "AS215240,C2,censys,NETRESEARCH,rhadamanthys,stealer",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461849": [
-        {
-            "ioc_value": "43.133.27.183:80",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.mimikatz",
-            "malware_alias": null,
-            "malware_printable": "MimiKatz",
-            "first_seen_utc": "2025-03-30 20:02:11",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/43.133.27.183",
-            "tags": "AS132203,C2,censys,hacktool,Mimikatz,open-dir,TENCENT-NET-AP-CN",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461848": [
-        {
-            "ioc_value": "www.asistani.com.tr",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "elf.bashlite",
-            "malware_alias": "gayfgt,Gafgyt,qbot,torlus,lizkebab",
-            "malware_printable": "Bashlite",
-            "first_seen_utc": "2025-03-30 20:02:00",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/172.67.220.159+www.asistani.com.tr",
-            "tags": "AS13335,C2,censys,CLOUDFLARENET,Gafgyt,open-dir",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461847": [
-        {
-            "ioc_value": "196.251.118.210:8088",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-03-30 20:01:38",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/196.251.118.210",
-            "tags": "AS401116,C2,censys,Havoc,NYBULA",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461846": [
-        {
-            "ioc_value": "198.244.249.180:7443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-03-30 20:01:28",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/198.244.249.180",
-            "tags": "AS16276,C2,censys,Mythic,OVH",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461845": [
-        {
-            "ioc_value": "196.251.69.138:8888",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-30 20:01:23",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/196.251.69.138",
-            "tags": "AS401115,AsyncRAT,C2,censys,EKABI,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461843": [
-        {
-            "ioc_value": "176.65.144.103:7707",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-30 20:01:22",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/176.65.144.103",
-            "tags": "AS215240,AsyncRAT,C2,censys,NETRESEARCH,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461844": [
-        {
-            "ioc_value": "135.125.27.216:6745",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-30 20:01:22",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/135.125.27.216",
-            "tags": "AS16276,AsyncRAT,C2,censys,OVH,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461842": [
-        {
-            "ioc_value": "74.48.17.196:8888",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-03-30 20:01:21",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/74.48.17.196",
-            "tags": "AS35916,C2,censys,MULTA-ASN1,Supershell",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461841": [
-        {
-            "ioc_value": "154.211.98.251:8888",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-03-30 20:01:20",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/154.211.98.251",
-            "tags": "AS399077,C2,censys,Supershell,TERAEXCH",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461840": [
-        {
-            "ioc_value": "107.189.27.163:8000",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.sliver",
-            "malware_alias": null,
-            "malware_printable": "Sliver",
-            "first_seen_utc": "2025-03-30 20:00:57",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/107.189.27.163",
-            "tags": "AS14956,C2,censys,open-dir,payload,ROUTERHOSTING,Sliver",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461839": [
-        {
-            "ioc_value": "95.174.93.233:8443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.pupy",
-            "malware_alias": "Patpoopy",
-            "malware_printable": "pupy",
-            "first_seen_utc": "2025-03-30 20:00:54",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/95.174.93.233",
-            "tags": "AS208677,C2,censys,CLOUDRU-AS,Pupy,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461838": [
-        {
-            "ioc_value": "124.66.208.143:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-03-30 20:00:37",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/124.66.208.143",
-            "tags": "AS138195,C2,censys,CobaltStrike,cs-watermark-666666666,MOACKCOLTD-AS-AP",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1461837": [
-        {
-            "ioc_value": "jeggawire.ddns.net",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-03-30 19:24:56",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://bazaar.abuse.ch/sample/491fbbb1b91c4ec1521dcbe45566794adad56ae63ab9347b5674e5a764b9f483/",
-            "tags": "XWorm",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461836": [
-        {
-            "ioc_value": "https://wfyzizcy.eza/rvELdza",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:22:21",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461829": [
-        {
-            "ioc_value": "https://catterjur.run/boSnzhu",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461830": [
-        {
-            "ioc_value": "https://fostinjec.today/LksNAz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461831": [
-        {
-            "ioc_value": "https://garagedrootz.top/oPsoJAN",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461832": [
-        {
-            "ioc_value": "https://modelshiverd.icu/bJhnsj",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461833": [
-        {
-            "ioc_value": "https://orangemyther.live/IozZ",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461834": [
-        {
-            "ioc_value": "https://paweshom.digital/gFet",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461835": [
-        {
-            "ioc_value": "https://sterpickced.digital/plSOz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 19:21:42",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461828": [
-        {
-            "ioc_value": "functions-pressing.gl.at.ply.gg",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-03-30 19:19:56",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://bazaar.abuse.ch/sample/c0b09795ac9bc0c9f642dc36eae0fc9da7283544e2c9ccda43c5e88da3dafcf4/",
-            "tags": "XWorm",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461827": [
-        {
-            "ioc_value": "196.251.69.96:7789",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-03-30 19:11:12",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/37cc05f717c3a3adf6da31e0f45847f4948f56bb44dca171f8532d4ca6e0ff95/",
-            "tags": "XWorm",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461826": [
-        {
-            "ioc_value": "evolution007.hopto.org",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.xworm",
-            "malware_alias": null,
-            "malware_printable": "XWorm",
-            "first_seen_utc": "2025-03-30 19:10:50",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://bazaar.abuse.ch/sample/37cc05f717c3a3adf6da31e0f45847f4948f56bb44dca171f8532d4ca6e0ff95/",
-            "tags": "XWorm",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461821": [
-        {
-            "ioc_value": "commoffice.xyz",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "unknown_loader",
-            "malware_alias": null,
-            "malware_printable": "Unknown Loader",
-            "first_seen_utc": "2025-03-30 18:49:52",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "loader,Maison Worm,maisonworm",
-            "anonymous": "0",
-            "reporter": "TRACLabs_"
-        }
-    ],
-    "1461823": [
-        {
-            "ioc_value": "acschoolcatering.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.konni",
-            "malware_alias": null,
-            "malware_printable": "Konni",
-            "first_seen_utc": "2025-03-30 18:49:50",
-            "last_seen_utc": null,
-            "confidence_level": 49,
-            "reference": "https://www.cyfirma.com/research/analysis-of-konni-rat-stealth-persistence-and-anti-analysis-techniques/",
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "johannes"
-        }
-    ],
-    "1461824": [
-        {
-            "ioc_value": "roofcolor.com",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.konni",
-            "malware_alias": null,
-            "malware_printable": "Konni",
-            "first_seen_utc": "2025-03-30 18:49:49",
-            "last_seen_utc": null,
-            "confidence_level": 49,
-            "reference": "https://www.cyfirma.com/research/analysis-of-konni-rat-stealth-persistence-and-anti-analysis-techniques/",
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "johannes"
-        }
-    ],
-    "1461825": [
-        {
-            "ioc_value": "http://www.roofcolor.com/wp-includes/js/src/upload.php",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.konni",
-            "malware_alias": null,
-            "malware_printable": "Konni",
-            "first_seen_utc": "2025-03-30 18:49:49",
-            "last_seen_utc": null,
-            "confidence_level": 49,
-            "reference": "https://www.cyfirma.com/research/analysis-of-konni-rat-stealth-persistence-and-anti-analysis-techniques/",
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "johannes"
-        }
-    ],
-    "1461822": [
-        {
-            "ioc_value": "103.28.89.34:10101",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-03-30 18:40:27",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/64f8d40a94818b9385624dc6237edee725cc7edf78c09da9fd60454a7b1e2cdc/",
-            "tags": "remcos",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461817": [
-        {
-            "ioc_value": "196.251.90.23:6900",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-03-30 18:35:28",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/8a04e9a762cfd139b2da4df34b2431c9d1381968153b96997e1a793c7cbc0fff/",
-            "tags": "asyncrat",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461816": [
-        {
-            "ioc_value": "https://starcloc.bet/GOksAo",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:31",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461815": [
-        {
-            "ioc_value": "https://spacedbv.world/EKdlsk",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:30",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461814": [
-        {
-            "ioc_value": "https://qadvennture.top/GKsiio",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:28",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461812": [
-        {
-            "ioc_value": "https://navstarx.shop/FoaJSi",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:27",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461813": [
-        {
-            "ioc_value": "https://ntargett.top/dsANGt",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:27",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461811": [
-        {
-            "ioc_value": "https://metalsyo.digital/opsa",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:26",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461810": [
-        {
-            "ioc_value": "https://ironloxp.live/aksdd",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:25",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461809": [
-        {
-            "ioc_value": "https://gstarcloc.bet/GOksAo",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:24",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461808": [
-        {
-            "ioc_value": "https://galxnetb.today/GsuIAo",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:23",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461807": [
-        {
-            "ioc_value": "https://1travelilx.top/GSKAiz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:19",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461806": [
-        {
-            "ioc_value": "https://1targett.top/dsANGt",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:30:18",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/5c42d5cff248996ac395d3c636fcf55cba5710d7797c03340c71d94fbbbd1c71/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461804": [
-        {
-            "ioc_value": "check.hydod.icu",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "js.clearfake",
-            "malware_alias": null,
-            "malware_printable": "ClearFake",
-            "first_seen_utc": "2025-03-30 18:26:50",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "ClearFake",
-            "anonymous": "0",
-            "reporter": "threatcat_ch"
-        }
-    ],
-    "1461805": [
-        {
-            "ioc_value": "https://check.hydod.icu/gkcxv.google",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.clearfake",
-            "malware_alias": null,
-            "malware_printable": "ClearFake",
-            "first_seen_utc": "2025-03-30 18:23:51",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "clearfake",
-            "anonymous": "1",
-            "reporter": "ttakvam"
-        }
-    ],
-    "1461803": [
-        {
-            "ioc_value": "gunlimit.digital",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:23:03",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1461802": [
-        {
-            "ioc_value": "https://staroney.today/EuwUIoz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-03-30 18:20:21",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/35c6205a22e3c03a157251b04f438a291cd4aeae51bd39bd5457d3669e37e2d1/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
         }
     ]
 }
