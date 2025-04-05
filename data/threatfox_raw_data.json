@@ -1,4 +1,633 @@
 {
+    "1485038": [
+        {
+            "ioc_value": "206.189.206.214:80",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "elf.moobot",
+            "malware_alias": null,
+            "malware_printable": "MooBot",
+            "first_seen_utc": "2025-04-05 16:01:44",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/206.189.206.214",
+            "tags": "AS14061,C2,censys,DIGITALOCEAN-ASN,moobot",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485037": [
+        {
+            "ioc_value": "196.251.83.99:8080",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "apk.ermac",
+            "malware_alias": null,
+            "malware_printable": "ERMAC",
+            "first_seen_utc": "2025-04-05 16:01:36",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/196.251.83.99",
+            "tags": "AS401120,C2,censys,CHEAPY-HOST,Ermac,panel",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485035": [
+        {
+            "ioc_value": "125.25.107.91:7443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.netsupportmanager_rat",
+            "malware_alias": "NetSupport",
+            "malware_printable": "NetSupportManager RAT",
+            "first_seen_utc": "2025-04-05 16:01:33",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/125.25.107.91",
+            "tags": "AS23969,C2,censys,Netsupport,RAT,TOT-NET",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485036": [
+        {
+            "ioc_value": "3.85.103.12:7000",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.netsupportmanager_rat",
+            "malware_alias": "NetSupport",
+            "malware_printable": "NetSupportManager RAT",
+            "first_seen_utc": "2025-04-05 16:01:33",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/3.85.103.12",
+            "tags": "AMAZON-AES,AS14618,C2,censys,Netsupport,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485034": [
+        {
+            "ioc_value": "64.7.198.136:7443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "unknown",
+            "malware_alias": null,
+            "malware_printable": "Unknown malware",
+            "first_seen_utc": "2025-04-05 16:01:15",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/64.7.198.136",
+            "tags": "AS399629,BLNWX,C2,censys,Mythic",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485033": [
+        {
+            "ioc_value": "45.88.186.85:6606",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.asyncrat",
+            "malware_alias": null,
+            "malware_printable": "AsyncRAT",
+            "first_seen_utc": "2025-04-05 16:01:09",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/45.88.186.85",
+            "tags": "AS23470,AsyncRAT,C2,censys,RAT,RELIABLESITE",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485032": [
+        {
+            "ioc_value": "138.201.196.83:7080",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.remcos",
+            "malware_alias": "RemcosRAT,Remvio,Socmer",
+            "malware_printable": "Remcos",
+            "first_seen_utc": "2025-04-05 16:00:41",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/138.201.196.83",
+            "tags": "AS24940,C2,censys,HETZNER-AS,RAT,Remcos",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485031": [
+        {
+            "ioc_value": "166.108.234.74:8089",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.cobalt_strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_printable": "Cobalt Strike",
+            "first_seen_utc": "2025-04-05 16:00:26",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/166.108.234.74",
+            "tags": "AS136907,C2,censys,CobaltStrike,cs-watermark-987654321,HWCLOUDS-AS-AP",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1485027": [
+        {
+            "ioc_value": "https://iplpepperiop.digital/oage",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 15:10:50",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/412b5e6b7f20bdc4d0d3d803c403a43767516742b1cee195db894c1901e0d71f/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485026": [
+        {
+            "ioc_value": "https://8rambutanvcx.run/adioz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 15:10:26",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/d63f2bc16a2559a2f1de7e12ca6771081652755382a08718c6a037a0f1fd74db/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485025": [
+        {
+            "ioc_value": "https://onavstarx.shop/FoaJSi",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 14:06:11",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/b79c40de66b966d29aa7d24fc7a8932caf0a04669b3230b19e1ffab7bd80eeca/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485024": [
+        {
+            "ioc_value": "https://dgalxnetb.today/GsuIAo",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 14:05:39",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/b79c40de66b966d29aa7d24fc7a8932caf0a04669b3230b19e1ffab7bd80eeca/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485023": [
+        {
+            "ioc_value": "https://5ironloxp.live/aksdd",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 14:05:25",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/b79c40de66b966d29aa7d24fc7a8932caf0a04669b3230b19e1ffab7bd80eeca/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485022": [
+        {
+            "ioc_value": "https://h0pepperiop.digital/oage",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 13:30:48",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/79e3b006ed64693682498c276c2efae9829f9cec52c012809cf372fca53f75f9/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485021": [
+        {
+            "ioc_value": "https://fpuerrogfh.live/iqwez",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 13:30:42",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/e7e25c25e9325804fb281eaea757dfd8b42db69cfa2240bc0cee62eb9d4df195/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485020": [
+        {
+            "ioc_value": "https://9advennture.top/GKsiio",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 13:30:31",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/e7e25c25e9325804fb281eaea757dfd8b42db69cfa2240bc0cee62eb9d4df195/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485019": [
+        {
+            "ioc_value": "https://xkrxspint.digital/kendwz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:46:34",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/c2bfdb20f54c8ea37a3cbc3fa888b51b33d1f54a67615f9a5e73ce26a4664bc8/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485018": [
+        {
+            "ioc_value": "https://1btargett.top/dsANGt",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:45:27",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/c2bfdb20f54c8ea37a3cbc3fa888b51b33d1f54a67615f9a5e73ce26a4664bc8/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485014": [
+        {
+            "ioc_value": "https://phywmedici.top/noagis",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:40:58",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/1fbd3b836fb71ffd5b040dcf1a73d04ef9e827a39866541ecb3eeb99c169ddef/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485013": [
+        {
+            "ioc_value": "https://miropilw.run/oags",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:40:52",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/d92a22a747916a126b8992c2c538ac3f3c42379f992347a928175d5fca2b3a3f/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485012": [
+        {
+            "ioc_value": "https://ljrxsafer.top/shpaoz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:40:49",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/1fbd3b836fb71ffd5b040dcf1a73d04ef9e827a39866541ecb3eeb99c169ddef/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485011": [
+        {
+            "ioc_value": "https://8xrfxcaseq.live/gspaz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:40:25",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/99ee8244a3fb9287717f77398438ae60f8fe7abf29a36776cc2d76b985b0bb9b/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485010": [
+        {
+            "ioc_value": "https://sgalxnetb.today/GsuIAo",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:36:10",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/a780b3b4d18253c76f74b6afe10a881d13083e045e30f318ff84fcaec59620c9/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485009": [
+        {
+            "ioc_value": "https://pquavabvc.top/iuzhd",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:35:59",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/456658948a090e48662b13f2bda5c97ee7acee614a9a027646ff4db77d25704a/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485008": [
+        {
+            "ioc_value": "https://bjrxsafer.top/shpaoz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:35:30",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/9b23b051c68b7c405836c6c63d7b6b371cce937ba6ddfd9e9d2db96c321c498d/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485007": [
+        {
+            "ioc_value": "https://4advennture.top/GKsiio",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:35:23",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/47ae02cfb9fd30728323dfce8b9ba261cfd2a3d08ece15b71af6755c256aea12/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485006": [
+        {
+            "ioc_value": "https://transfosdrm.live/qwopr",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:31:19",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/5a49baa36f04f7227a978bd622bfef920455af0ea5521b19679dec3c9fde1e98/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485005": [
+        {
+            "ioc_value": "https://tadvennture.top/GKsiio",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:31:14",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/5a49baa36f04f7227a978bd622bfef920455af0ea5521b19679dec3c9fde1e98/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485004": [
+        {
+            "ioc_value": "https://aywmedici.top/noagis",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:30:37",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/262da6ab14665d13e89a638f8b3dc5699f65f33d203345aa22ee8b920d86d245/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485003": [
+        {
+            "ioc_value": "https://qplantainklj.run/opafg",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:25:59",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/789891cf144aa1c56e80f0774f50a3ea60eacd192c086246e948252b3fe8ff80/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485002": [
+        {
+            "ioc_value": "https://kpuerrogfh.live/iqwez",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:25:47",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/789891cf144aa1c56e80f0774f50a3ea60eacd192c086246e948252b3fe8ff80/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485001": [
+        {
+            "ioc_value": "https://jstarcloc.bet/GOksAo",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:25:46",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/306997d2a503d4a9e5848b2a327f7e70533b236b04a85b87632250c60cd19f14/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1485000": [
+        {
+            "ioc_value": "https://darjkafsg.digital/aoiz",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:25:36",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/4d0c8d5868c35db0748d247d2e1156c87436ac108950adeb7a0e66439f07a204/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1484999": [
+        {
+            "ioc_value": "https://appnavia.live/PAozko",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:25:35",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/306997d2a503d4a9e5848b2a327f7e70533b236b04a85b87632250c60cd19f14/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1484998": [
+        {
+            "ioc_value": "https://sparaperw.live/smphn",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:21:00",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/081d74a8ce956185e5f2cb7a8919503153db8c06d1aa4bf5842d3d49cd6beca3/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1484997": [
+        {
+            "ioc_value": "https://paraperw.live/smphn",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:20:48",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/7a5551bd343f4f626e394df465d366fd7ee6e42cd80c24ddbc95b766d20aa28c/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
+    "1484996": [
+        {
+            "ioc_value": "https://nrhxhube.run/pogrs",
+            "ioc_type": "url",
+            "threat_type": "botnet_cc",
+            "malware": "win.lumma",
+            "malware_alias": "LummaC2 Stealer",
+            "malware_printable": "Lumma Stealer",
+            "first_seen_utc": "2025-04-05 12:20:47",
+            "last_seen_utc": null,
+            "confidence_level": 75,
+            "reference": "https://bazaar.abuse.ch/sample/081d74a8ce956185e5f2cb7a8919503153db8c06d1aa4bf5842d3d49cd6beca3/",
+            "tags": "lumma",
+            "anonymous": "0",
+            "reporter": "abuse_ch"
+        }
+    ],
     "1484995": [
         {
             "ioc_value": "45.92.1.116:8090",
@@ -5145,7 +5774,7 @@
             "last_seen_utc": null,
             "confidence_level": 100,
             "reference": "",
-            "tags": "ClearFake,Emmenhtal Loader",
+            "tags": "ClearFake",
             "anonymous": "0",
             "reporter": "HuntYethHounds"
         }
@@ -6508,2981 +7137,6 @@
             "tags": null,
             "anonymous": "0",
             "reporter": "Rony"
-        }
-    ],
-    "1484563": [
-        {
-            "ioc_value": "https://check.xuxyf.icu/gkcxv.google",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.clearfake",
-            "malware_alias": null,
-            "malware_printable": "ClearFake",
-            "first_seen_utc": "2025-04-03 17:58:48",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "clearfake",
-            "anonymous": "1",
-            "reporter": "ttakvam"
-        }
-    ],
-    "1484561": [
-        {
-            "ioc_value": "https://sprmendu.live/nabgb",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:36:04",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/94d4904e697315bfc3586a115c66e657fc74e056350f9b4987f4ddd4fa185900/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484560": [
-        {
-            "ioc_value": "https://kgalxnetb.today/GsuIAo",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:35:50",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/94d4904e697315bfc3586a115c66e657fc74e056350f9b4987f4ddd4fa185900/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484559": [
-        {
-            "ioc_value": "https://steptbli.digital/jkagz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:26:06",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/4cd99e88f2af1d6125faaf04cc423537fbdd1dda3a345161031fa4d079f3abd7/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484558": [
-        {
-            "ioc_value": "https://hxrfxcaseq.live/gspaz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:25:45",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/4cd99e88f2af1d6125faaf04cc423537fbdd1dda3a345161031fa4d079f3abd7/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484557": [
-        {
-            "ioc_value": "https://q6rhxhube.run/pogrs",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:06:01",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/b2bd3ce6aee7a3aede24889c7a2f21caf448e47ed94e20cbb31b38348b84f880/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484556": [
-        {
-            "ioc_value": "https://ijrxsafer.top/shpaoz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 17:05:50",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/b2bd3ce6aee7a3aede24889c7a2f21caf448e47ed94e20cbb31b38348b84f880/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484550": [
-        {
-            "ioc_value": "20.169.41.5:53",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-04-03 16:56:17",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "CobaltStrike,drb-ra",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484549": [
-        {
-            "ioc_value": "cs1.bigpineapple.asia",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-04-03 16:53:39",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "CobaltStrike,drb-ra",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484546": [
-        {
-            "ioc_value": "185.33.87.23:41676",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown_rat",
-            "malware_alias": null,
-            "malware_printable": "Unknown RAT",
-            "first_seen_utc": "2025-04-03 16:04:05",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "I2Parcae,I2PRAT",
-            "anonymous": "0",
-            "reporter": "Rony"
-        }
-    ],
-    "1484545": [
-        {
-            "ioc_value": "2.59.117.173:8082",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "apk.ermac",
-            "malware_alias": null,
-            "malware_printable": "ERMAC",
-            "first_seen_utc": "2025-04-03 16:01:27",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/2.59.117.173",
-            "tags": "AS210574,C2,censys,Ermac,panel,POYRAZ",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484544": [
-        {
-            "ioc_value": "13.238.124.252:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.havoc",
-            "malware_alias": "Havokiz",
-            "malware_printable": "Havoc",
-            "first_seen_utc": "2025-04-03 16:01:17",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/13.238.124.252",
-            "tags": "AMAZON-02,AS16509,C2,censys,Havoc",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484543": [
-        {
-            "ioc_value": "https://latchclan.shop/Wjquw",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 16:01:13",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/68c3beef0ed60dbfab18afa76b20bbd8c699177c88121079ec4dd94f11055f9f/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484542": [
-        {
-            "ioc_value": "45.136.14.68:6666",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-04-03 16:01:09",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/45.136.14.68",
-            "tags": "AS139659,C2,censys,LUCID-AS-AP,Quasar,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484539": [
-        {
-            "ioc_value": "102.117.83.166:44817",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-04-03 16:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/102.117.83.166",
-            "tags": "AS23889,C2,censys,MauritiusTelecom,Quasar,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484540": [
-        {
-            "ioc_value": "102.117.83.166:83",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-04-03 16:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/102.117.83.166",
-            "tags": "AS23889,C2,censys,MauritiusTelecom,Quasar,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484541": [
-        {
-            "ioc_value": "102.117.83.166:12439",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.quasar_rat",
-            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
-            "malware_printable": "Quasar RAT",
-            "first_seen_utc": "2025-04-03 16:01:08",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/102.117.83.166",
-            "tags": "AS23889,C2,censys,MauritiusTelecom,Quasar,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484538": [
-        {
-            "ioc_value": "216.8.154.253:7443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-04-03 16:01:06",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/216.8.154.253",
-            "tags": "AS7057,C2,censys,MANAGEDNETWORK,Mythic",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484537": [
-        {
-            "ioc_value": "78.171.42.106:1002",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-04-03 16:01:01",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/78.171.42.106",
-            "tags": "AS9121,AsyncRAT,C2,censys,RAT,TTNET",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484535": [
-        {
-            "ioc_value": "45.88.186.144:7077",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-04-03 16:01:00",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/45.88.186.144",
-            "tags": "AS23470,AsyncRAT,C2,censys,RAT,RELIABLESITE",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484536": [
-        {
-            "ioc_value": "45.88.186.146:7077",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.asyncrat",
-            "malware_alias": null,
-            "malware_printable": "AsyncRAT",
-            "first_seen_utc": "2025-04-03 16:01:00",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/45.88.186.146",
-            "tags": "AS23470,AsyncRAT,C2,censys,RAT,RELIABLESITE",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484534": [
-        {
-            "ioc_value": "118.178.89.212:8888",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "unknown",
-            "malware_alias": null,
-            "malware_printable": "Unknown malware",
-            "first_seen_utc": "2025-04-03 16:00:58",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/118.178.89.212",
-            "tags": "ALIBABA-CN-NET,AS37963,C2,censys,Supershell",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484533": [
-        {
-            "ioc_value": "https://fastbenerfa.shop/biSUz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 16:00:51",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/68c3beef0ed60dbfab18afa76b20bbd8c699177c88121079ec4dd94f11055f9f/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484532": [
-        {
-            "ioc_value": "https://6bugildbett.top/bAuz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 16:00:37",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/68c3beef0ed60dbfab18afa76b20bbd8c699177c88121079ec4dd94f11055f9f/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484531": [
-        {
-            "ioc_value": "www.makeyourchoice0808.online",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-04-03 16:00:31",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/176.65.134.7+www.makeyourchoice0808.online",
-            "tags": "AS215240,C2,censys,NETRESEARCH,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1484530": [
-        {
-            "ioc_value": "h1.rectalcrumb.shop",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:59:55",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484529": [
-        {
-            "ioc_value": "https://unicornu.digital/nojh",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:56:04",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/92cbc9d11b1dac5ddc467b6a9004531f4619ca553ea7be2b930af78dde07a6db/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484528": [
-        {
-            "ioc_value": "https://gxrfxcaseq.live/gspaz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:55:41",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/92cbc9d11b1dac5ddc467b6a9004531f4619ca553ea7be2b930af78dde07a6db/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484527": [
-        {
-            "ioc_value": "93.115.172.125:1134",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.unidentified_118",
-            "malware_alias": null,
-            "malware_printable": "Unidentified 118",
-            "first_seen_utc": "2025-04-03 15:47:28",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "Rony"
-        }
-    ],
-    "1484522": [
-        {
-            "ioc_value": "acibbnijcehcmbi.top",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "js.mints_loader",
-            "malware_alias": null,
-            "malware_printable": "MintsLoader",
-            "first_seen_utc": "2025-04-03 15:32:56",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "mintsloader,ta582",
-            "anonymous": "0",
-            "reporter": "Gusty_Dusty"
-        }
-    ],
-    "1484526": [
-        {
-            "ioc_value": "91.212.166.51:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.ghostsocks",
-            "malware_alias": null,
-            "malware_printable": "GhostSocks",
-            "first_seen_utc": "2025-04-03 15:22:16",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "C2,tier-1",
-            "anonymous": "0",
-            "reporter": "Rony"
-        }
-    ],
-    "1484525": [
-        {
-            "ioc_value": "91.212.166.19:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.ghostsocks",
-            "malware_alias": null,
-            "malware_printable": "GhostSocks",
-            "first_seen_utc": "2025-04-03 15:18:32",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "c2,tier-1",
-            "anonymous": "0",
-            "reporter": "Rony"
-        }
-    ],
-    "1484524": [
-        {
-            "ioc_value": "https://yjrxsafer.top/shpaoz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:10:56",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/8982bcc7399d4e6a2c578c9c081d4287fee1c9b0ce2f2d73a7dfdb3fa07b8e96/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484523": [
-        {
-            "ioc_value": "https://jrlxspoty.run/nogoaz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:10:39",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/3ee59ef4b79abd6090d315da94142a19d69a16c27b1916ee4e1ef3a906acb497/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484521": [
-        {
-            "ioc_value": "https://utargett.top/dsANGt",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:06:01",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/e0c211297e4300d977719cc2e0722b40426551e44e711bffe77f0f348aed5852/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484520": [
-        {
-            "ioc_value": "https://aadvento.run/SAOznj",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:05:36",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/e0c211297e4300d977719cc2e0722b40426551e44e711bffe77f0f348aed5852/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484397": [
-        {
-            "ioc_value": "https://covaticonstructioncorp.shop/pictures/analytics.js",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:24",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484398": [
-        {
-            "ioc_value": "covaticonstructioncorp.shop",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:23",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484399": [
-        {
-            "ioc_value": "https://covaticonstructioncorp.shop/pictures/index.php",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:22",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484400": [
-        {
-            "ioc_value": "https://covaticonstructioncorp.shop/pictures/video.php",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:20",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484401": [
-        {
-            "ioc_value": "https://mindsparkdigital.com/msg.zip",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:19",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484393": [
-        {
-            "ioc_value": "https://9na6ylihasadaizlireklam.site/ODg4MTMyZDNmODA0/",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "apk.coper",
-            "malware_alias": "ExobotCompact,Octo",
-            "malware_printable": "Coper",
-            "first_seen_utc": "2025-04-03 15:03:18",
-            "last_seen_utc": null,
-            "confidence_level": 80,
-            "reference": null,
-            "tags": "apk,Coper",
-            "anonymous": "0",
-            "reporter": "myonium1"
-        }
-    ],
-    "1484402": [
-        {
-            "ioc_value": "mindsparkdigital.com",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 15:03:18",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114274429114211477",
-            "tags": "SmartApeSG",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484394": [
-        {
-            "ioc_value": "https://44n8aylihasadaizlireklam.site/ODg4MTMyZDNmODA0/",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "apk.coper",
-            "malware_alias": "ExobotCompact,Octo",
-            "malware_printable": "Coper",
-            "first_seen_utc": "2025-04-03 15:03:17",
-            "last_seen_utc": null,
-            "confidence_level": 80,
-            "reference": null,
-            "tags": "apk,Coper",
-            "anonymous": "0",
-            "reporter": "myonium1"
-        }
-    ],
-    "1484395": [
-        {
-            "ioc_value": "https://tesra.shop/drasticplay.ogg",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:03:17",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "hta,LummaStealer",
-            "anonymous": "0",
-            "reporter": "threatcat_ch"
-        }
-    ],
-    "1484396": [
-        {
-            "ioc_value": "tesra.shop",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:03:12",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "",
-            "tags": "hta,LummaStealer",
-            "anonymous": "0",
-            "reporter": "threatcat_ch"
-        }
-    ],
-    "1484392": [
-        {
-            "ioc_value": "https://6onaylihasadaizlireklam.site/ODg4MTMyZDNmODA0/",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "apk.coper",
-            "malware_alias": "ExobotCompact,Octo",
-            "malware_printable": "Coper",
-            "first_seen_utc": "2025-04-03 15:03:11",
-            "last_seen_utc": null,
-            "confidence_level": 80,
-            "reference": null,
-            "tags": "apk,Coper",
-            "anonymous": "0",
-            "reporter": "myonium1"
-        }
-    ],
-    "1484388": [
-        {
-            "ioc_value": "freshyu.digital",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:03:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "threatcat_ch"
-        }
-    ],
-    "1484389": [
-        {
-            "ioc_value": "ywmedici.top",
-            "ioc_type": "domain",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 15:03:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": null,
-            "tags": "LummaStealer",
-            "anonymous": "0",
-            "reporter": "threatcat_ch"
-        }
-    ],
-    "1484513": [
-        {
-            "ioc_value": "f00f2b00fc3b996c228cda8c90a30b6539421768c0ba874c3ad1b73af48354ce",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484514": [
-        {
-            "ioc_value": "f0123e5befdbf3ec251f956c9c0515cf5888f976d83c54c72464344b99fc18c9",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484515": [
-        {
-            "ioc_value": "f012affcbe1c7575e34486e8330946472b0c7c68e54d0b3411b05df69ae2a07d",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484516": [
-        {
-            "ioc_value": "f01386882849a80e799cdf7e4cb04708b1accb80c91687b55f63eed8729d2057",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484517": [
-        {
-            "ioc_value": "f015857b4e046f44e4fdcd6a364096181258ec9419415b2de480b692c4f68e76",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484518": [
-        {
-            "ioc_value": "f016afe897a92414e51f41f41c21f558745601ab3e6fda0b2f99713f88b54c0e",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484519": [
-        {
-            "ioc_value": "f018e69934cdbc05bce5c6ddaf408409c2fbbbe1bd76e7d586221b0fc077fe2b",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:56",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484501": [
-        {
-            "ioc_value": "eff7257f41728e432fbbc75abd0f6b0f47c187b6c3f16354dae9e80a1e679d2d",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484502": [
-        {
-            "ioc_value": "eff90bf94b23563f36d234947f5ad9ed986f0f522b662ed2c4830137cc2e5974",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484503": [
-        {
-            "ioc_value": "eff974059b7909f8283fdb630a6951d83b772470bf96d748f7510ec73dfeca13",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484504": [
-        {
-            "ioc_value": "effaaa42dbf1e325a68bd05e818d79f2c1ee7ae9cfcf67aa7cd970726ad8e7f4",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484505": [
-        {
-            "ioc_value": "effcac96543db747f5f2c0a2fdb0525e7cf7e8d537b802752d0091bf2d000720",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484506": [
-        {
-            "ioc_value": "efff026f46c677e98f53e834d1f074030d2a33d93289f9bbaa26c47451d63989",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484507": [
-        {
-            "ioc_value": "efff4b288c3c9bcdc6936e999a176c0d8cd3053804c8d39a2697e10fa0567d72",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484508": [
-        {
-            "ioc_value": "f0021390346e637ef06825dd22848c11bb9ad272eaf898de981c469b8300f715",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484509": [
-        {
-            "ioc_value": "f0042b6d6ff30a7e2addb508de5eb0338eece4458be1a8a92ac6af1ac2d3d890",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484510": [
-        {
-            "ioc_value": "f007989340d051c2715bedb1bd5d4736cd90dde2453591e4614c3787dae9b126",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484511": [
-        {
-            "ioc_value": "f0099b9fca18a8b62dea4a506d8d9d0c66889bcbf3f8dc2e47ff7028ea2fcb66",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484512": [
-        {
-            "ioc_value": "f00c12f1feff9ffc6822df557ddfdcef9202e9262169cd3073a64560159efcc6",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:55",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484488": [
-        {
-            "ioc_value": "efca08b438b3ee1eb29e2018c0ecdb0d378ac11d1a20bd992c7ad1ae95be9ecf",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484489": [
-        {
-            "ioc_value": "efcc9d478bab1c5a8db0bdc105e7540532affa1c27fb93eabdf7d27bc4a44f57",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484490": [
-        {
-            "ioc_value": "efcfebbfd731b05caf55c2e3bb99c2b12fc10059910de4ee7922542bff03b5f6",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484491": [
-        {
-            "ioc_value": "efd7a84e8193ef28b7d0319aa3d2b30a6af5db6afd1cd9a837d19c1d5029feb0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484492": [
-        {
-            "ioc_value": "efdc1de23444495c9ff52f1aa6ad8a5f97ebc32d3218aae41621b1390ab7c5cf",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484493": [
-        {
-            "ioc_value": "efdc98beb926f349aed2d452b4d0cfe5629c7bc86bdf9ebc32465c256ddcd7f4",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484494": [
-        {
-            "ioc_value": "efdfde5d0747d70440814529d80ac141239316d6ed4d0c9548c10b0da766a45e",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484495": [
-        {
-            "ioc_value": "efe2a60a7501f9e757f50634a2e3f5db27860608477f7d042c408d22b13405b0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484496": [
-        {
-            "ioc_value": "efe2c659d890d0127a073e4c43916e2ae9f4e6edeb9fe18c093174c4272826e9",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484497": [
-        {
-            "ioc_value": "efea306a1e9ff4971b39b0a739497957ca5152d4c56d9ef5ab621048fd8a29d4",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484498": [
-        {
-            "ioc_value": "efeb6d103b8f061122438c67e456434d110de418edc27c844a0a08299ff09884",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484499": [
-        {
-            "ioc_value": "eff2173f499ec97f4934528f85b2721979598ecd9b22e6c65cccad0d888031fa",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484500": [
-        {
-            "ioc_value": "eff51f995cd6463cd9b3a2ea4a14cc85e3cc5c1b5b71db6d90765b3df175abba",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:54",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484477": [
-        {
-            "ioc_value": "efaf90d8c2d97bf1daf75dcfc0f97c913a112388bd9a0fda20d03ea1814694e4",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484478": [
-        {
-            "ioc_value": "efb06e91db5c8c230ba8fd62bd6fa9da0674c88eb7ac52c7cff15892bfc1fde9",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484479": [
-        {
-            "ioc_value": "efb2b0d7b137471f5ede3aa71c3556c65361fb85657f69c3dc242caf2f630765",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484480": [
-        {
-            "ioc_value": "efba38f8b123d672684109b89e9626275cfcff4baa49c84d43e713c39ca37f77",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484481": [
-        {
-            "ioc_value": "efbc8318bac69fdbc43aa14cd7d82273b6208b290f9fc612292c10480a679776",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484482": [
-        {
-            "ioc_value": "efbd7db802da578f99356b825f7c09d48c0ae4387d831cd6a97a6d463a3a1b97",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484483": [
-        {
-            "ioc_value": "efbfd43fd34ceb3a6799a44246f48cb7798fac24271b3058ffd206229c9cd212",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484484": [
-        {
-            "ioc_value": "efbfd7a968dc584c166551f171937da09dd94178b8c27e09f5eab73d1641d0d0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484485": [
-        {
-            "ioc_value": "efc4e5389b37775e43395908efa2ca2df555f70235a91014c90f992f64dbf217",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484486": [
-        {
-            "ioc_value": "efc6c4f05b4ea995b178ad6bcce54400c0230ec41fda7cddd4b7e67b34afcd8f",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484487": [
-        {
-            "ioc_value": "efc7fd3f30977873d593e6951d1d7a54660e3c99c1063a703813155480e6d7c8",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:53",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484466": [
-        {
-            "ioc_value": "ef81b6eab22cba21f990e3daf8994a8788673f57b43d2ff9a2f1f4921102a20e",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484467": [
-        {
-            "ioc_value": "ef83327f8cd90a3e2167eb7a392074bf86c473b565301888e285d1daa6707894",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484468": [
-        {
-            "ioc_value": "ef8356d61e6803858f00eb94f0fba1e5733d5c50033113c7365f99664b76656c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484469": [
-        {
-            "ioc_value": "ef85019d3696285f9a0d5c9b4c4134a68713b6294cb77a9dc41e0223ea7bede9",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484470": [
-        {
-            "ioc_value": "ef98ef7b237c47e0d3dfc8e64dad955c4a3c3a5ffa8ff524d59c5f0135d18533",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484471": [
-        {
-            "ioc_value": "ef9d49a379507b2d04b841f684705fb669509f780706d9859fd382a235f50c11",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484472": [
-        {
-            "ioc_value": "efa03afa2ecc132d439145c0aa101e366d616d1376d4690545237c6c8586a23d",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484473": [
-        {
-            "ioc_value": "efa1b45304b090b6910a4141db0293115101ca0ffeb166187b5f01922744f896",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484474": [
-        {
-            "ioc_value": "efa778f560db43f41a9917fed8c1bb2434b5e54f141a2f106bd4b94300c2ee2c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484475": [
-        {
-            "ioc_value": "efab1c1187b2cff4f71fa9cad300702c0b75150b3761210eda7482164c638c62",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484476": [
-        {
-            "ioc_value": "efaec2b2be46af9e27db86bef59bdaf606b70d54e0dd342e51d56dcb9d4b26f2",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:52",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484454": [
-        {
-            "ioc_value": "ef53f64b3aa33a4458319d3ed54a03075342c63eead37e1b73a9ed150caac135",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484455": [
-        {
-            "ioc_value": "ef556662edb68ebcaff81c22f4b9f860f4de9192ee6fee7ad71e556490ae5729",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484456": [
-        {
-            "ioc_value": "ef5cc39bd536f448498941d058596883d45a1f0c171ec0e6601c73d40671da3c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484457": [
-        {
-            "ioc_value": "ef61922fc8f10e302e7b0ff0f958a569c0655f2389cde6020ada1590240478c7",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484458": [
-        {
-            "ioc_value": "ef639c25f4a83c30e4ad3f6ccc70f323381bd1ce14d92ec180b8eca49520bb43",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484459": [
-        {
-            "ioc_value": "ef683c60911bc164ce7037cbb02121fba3ff2d1419bc31a77775793c38369b3b",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484460": [
-        {
-            "ioc_value": "ef69257a4702d9c9cf708ad65283273febb3ea91bc8d5e1103c5fe56b17e2826",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484461": [
-        {
-            "ioc_value": "ef6d36c9c2b0d7258693b92c2ee9de1efb0221442f8f457f61ac0b68ada41810",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484462": [
-        {
-            "ioc_value": "ef6eb8f18ff2dff107973385c029b417b6376c3b946df7ee3e758f8565789a4e",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484463": [
-        {
-            "ioc_value": "ef71225b333b75e7768c7f252c9fe4910e3bac8221c157a2688baad2a564485d",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484464": [
-        {
-            "ioc_value": "ef798468db36b921f6c2830f5eb95c6e31b5e118f10a0aea9e944960cdf96a16",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484465": [
-        {
-            "ioc_value": "ef7cf0581ccea4c7f93b6fa4b0a2655fcde58311e108223d9bcb728404a5cec7",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:51",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484441": [
-        {
-            "ioc_value": "ef3578dc75545fd41e365a2919979429d605b381c53812e867adddfe36ac7849",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484442": [
-        {
-            "ioc_value": "ef35799bcdfb9a40fd14227a39fa8d7c90e0f33942abfaf71e64bb6a93cd159f",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484443": [
-        {
-            "ioc_value": "ef3b6d10db14c8c47744ae9f56e77fcc3f8f1b8554fe8c2a6b8953e14824bcbb",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484444": [
-        {
-            "ioc_value": "ef3b791caf3b6d690197d2ab9ffb04310e42f7a5a5744827325b2c2d241c25e0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484445": [
-        {
-            "ioc_value": "ef3e8f1f02c94dcce63c87110791a76b7f08878da924de7fd9fc588ea63b8f13",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484446": [
-        {
-            "ioc_value": "ef3f4cfb7e485fde47856c43bd273629d8290d7528ddfea9a3117b0bca3bc875",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484447": [
-        {
-            "ioc_value": "ef45fc40d4ab60f62a3e8df806f9426657ba3d50215a24ad93a54e1bb1cf9628",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484448": [
-        {
-            "ioc_value": "ef47c5996ef112f906427cbb974ece4d9400aa47a9f5e2edabffd4519ce5a7be",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484449": [
-        {
-            "ioc_value": "ef49ac192c3f5aa92dce159c7df6cf297c7dd3d327eedc9b9231ce7b41abfe46",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484450": [
-        {
-            "ioc_value": "ef4a502ddf1302d71b96fdd150613d35d2722868d669c4e8f33ff715d5456ad7",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484451": [
-        {
-            "ioc_value": "ef4b5993f309f4298bcc9a837b950bd338b03b0ef458acd23432a01884106ffc",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484452": [
-        {
-            "ioc_value": "ef4ec65b14f2314233b95972d9bf04aefd75e62ba71c0387854b6e10d8ff9c46",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484453": [
-        {
-            "ioc_value": "ef52de89306ffa8d2789dc93ec66cd686da80b51867606a45b1cbede2b1accc7",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:50",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484426": [
-        {
-            "ioc_value": "ef123e56243004263637a0ec051578cebffbbe35f1d9cff18b4d9936ddd2d2a0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484427": [
-        {
-            "ioc_value": "ef17498293979b2ae37899f98912c1d06d3ac237e1f8fae4e31ca437e4b09d3c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484428": [
-        {
-            "ioc_value": "ef19d57f1f227de78abb7cd9bac674a5c4fc07d2db688a90750086e6b60cf146",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484429": [
-        {
-            "ioc_value": "ef1bb079ec0da97c65a3429c075df08a5f0c4708c0e130f6963010facfb3d888",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484430": [
-        {
-            "ioc_value": "ef1bf5d66eef6f6e461ee07d45ebdfb15436aeb4df3ceb023800a84740dc6e88",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484431": [
-        {
-            "ioc_value": "ef1f116c4820c0b89cfd8fb6aee6de6431bb25dcbace180e6cbd654281b09c8c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484432": [
-        {
-            "ioc_value": "ef2048a669f1bf5ddf52eaf0f3950f5fa6c8eabc185eb8f6fa1a4af7731e6442",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484433": [
-        {
-            "ioc_value": "ef214f5a5b04210d047ce43b89531f73dfa663f17b2d8ba88227ef327efa6c7d",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484434": [
-        {
-            "ioc_value": "ef223601f4360817cff738df568f13ffc9cd56c41e7160691931c43c3bcbb8b0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484435": [
-        {
-            "ioc_value": "ef2573bda777bead9483d197af10c4cb9b485dccdba83f2a51e350ea44a3cbd1",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484436": [
-        {
-            "ioc_value": "ef263c6d879b95b9aca5582066cbe58fcb4d10399aad39c8cb556600a86e3b19",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484437": [
-        {
-            "ioc_value": "ef29810888ad295d69a976e001c5dd3e78d7b53f1ec90b20e5268a7970b8e3bf",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484438": [
-        {
-            "ioc_value": "ef2c87982f91ffbb4a70f95c85e02544d7a1acfb7784728a82bc39e0f75204ba",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484439": [
-        {
-            "ioc_value": "ef2cd1e643578ffc779d9bfe928fc355b4107c98b280a5e0884cbb78b1582918",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484440": [
-        {
-            "ioc_value": "ef2e7cf7d7c8a86f24de4272055bd98cfdf6e1536cc00b80630b0da8eabea7ff",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:49",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484411": [
-        {
-            "ioc_value": "eede3f350dd1499ca265f0395afc7e799a0a993094330b7827faf2bef9376651",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484412": [
-        {
-            "ioc_value": "eee080c11fd5ffef94dc1b6b99546fb543796e2cfdff1b3637b35d88be879d36",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484413": [
-        {
-            "ioc_value": "eee326554cecb5ff30e73995700def02b78061414c15c6a7ec785b0d92ff695c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484414": [
-        {
-            "ioc_value": "eeee232ef628352d43833b909892d2ed0807a43850baaf8d828b769c7840eb92",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484415": [
-        {
-            "ioc_value": "eef1f1c99b009b5501919b64080a05b5b12dd6926d1282ca0b526bbf51f29973",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484416": [
-        {
-            "ioc_value": "eef3fc85aa7aac8e5f9de7b401e1536e7ad3d0fcb53dbcafc28ada050b5335d2",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484417": [
-        {
-            "ioc_value": "eefe616fb677f3a3bcd53c176f4e47cc50490d7f0679f1ae8b8e719a5bdfcebc",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484418": [
-        {
-            "ioc_value": "ef0026749bdd45b050f63af1145c311e926e754dbc55e7707bf2f616dde820bd",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484419": [
-        {
-            "ioc_value": "ef04fe325737cad04ca603cf3a72a71b86bc51786b696972e243cbd0612538b1",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484420": [
-        {
-            "ioc_value": "ef07b9b3f5a6a5618cb8d158ef30b1729de9bf881d52c544d602454b3de80585",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484421": [
-        {
-            "ioc_value": "ef0ad84528750e2dc891ed819018c7c0d28fe038c92fd2612a5f26ad9863736c",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484422": [
-        {
-            "ioc_value": "ef0c1184ccb9f170927bff99307811ffb4bf8f21e0ec6361440c012f2f6a8fa1",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484423": [
-        {
-            "ioc_value": "ef0e71b134812a02664c73afcb8c36323d9619e924ca83c2cdb4e21a650279b3",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484424": [
-        {
-            "ioc_value": "ef0eed5c8f78fcd9add4868d81725fd28ff7bbb41c0986d0e4c183c44d242b40",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484425": [
-        {
-            "ioc_value": "ef0f2ca71bcb2b40a2565f6d39b93eee204e29e39ac54a6bfe04d2cd157e4e45",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:48",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484403": [
-        {
-            "ioc_value": "eeb51c35f1aa3df2af8a1d4d7f7b732cfbf9a7c65397dce1cad7cb46fa7105a0",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484404": [
-        {
-            "ioc_value": "eebcd9afa9a31cbfe9693077fe10e2efc2131fc2c0c719cba7152f61b2edc6e9",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484405": [
-        {
-            "ioc_value": "eec2fba0574e911832b532745babd35290bb1b5dee13353d713f076f738003c5",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484406": [
-        {
-            "ioc_value": "eec79d5651a3bd38f712958f7c82360c11c3b81efabcb12ce8c265a7c5b06821",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484407": [
-        {
-            "ioc_value": "eecc85e1dbd77f2d974330c65275c3c9d21866d2c95f9a9af7f5c895fd005434",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484408": [
-        {
-            "ioc_value": "eecfaa71ab031c184557f1d78a349f095ace00b1087f315f26bcba1a58bdda2f",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484409": [
-        {
-            "ioc_value": "eed296794a029813e8437e1c0ae840b99d9a0a54f080fa516f27d5fc2203240e",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484410": [
-        {
-            "ioc_value": "eed4a0e8744a5a19cb2f42e0cee990b53a3e0eb3375c5dfa9da1c26feecd81c8",
-            "ioc_type": "sha256_hash",
-            "threat_type": "payload",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 14:50:47",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": "https://github.com/TheRavenFile/IOC/blob/main/Lumma%20Stealer",
-            "tags": "infostealer,lumma,lummastealer,stealer",
-            "anonymous": "0",
-            "reporter": "TheRavenFile"
-        }
-    ],
-    "1484391": [
-        {
-            "ioc_value": "https://pykrxspint.digital/kendwz",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 13:40:41",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/7c34a8d5dbc474efaa02494c7eb6a856880da7736ed4d942d9ed272d6d374597/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484390": [
-        {
-            "ioc_value": "https://drhxhube.run/pogrs",
-            "ioc_type": "url",
-            "threat_type": "botnet_cc",
-            "malware": "win.lumma",
-            "malware_alias": "LummaC2 Stealer",
-            "malware_printable": "Lumma Stealer",
-            "first_seen_utc": "2025-04-03 13:40:30",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/7c34a8d5dbc474efaa02494c7eb6a856880da7736ed4d942d9ed272d6d374597/",
-            "tags": "lumma",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484379": [
-        {
-            "ioc_value": "124.221.56.49:443",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.cobalt_strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_printable": "Cobalt Strike",
-            "first_seen_utc": "2025-04-03 12:55:51",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": null,
-            "tags": "CobaltStrike,drb-ra",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484378": [
-        {
-            "ioc_value": "http://175.107.2.95:36387/Mozi.m",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "elf.mozi",
-            "malware_alias": null,
-            "malware_printable": "Mozi",
-            "first_seen_utc": "2025-04-03 12:40:05",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": null,
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "sicehicetf"
-        }
-    ],
-    "1484377": [
-        {
-            "ioc_value": "http://42.235.85.115:33308/Mozi.m",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "elf.mozi",
-            "malware_alias": null,
-            "malware_printable": "Mozi",
-            "first_seen_utc": "2025-04-03 12:40:04",
-            "last_seen_utc": null,
-            "confidence_level": 50,
-            "reference": null,
-            "tags": null,
-            "anonymous": "0",
-            "reporter": "sicehicetf"
-        }
-    ],
-    "1484376": [
-        {
-            "ioc_value": "196.251.92.49:51010",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-04-03 12:30:58",
-            "last_seen_utc": null,
-            "confidence_level": 75,
-            "reference": "https://bazaar.abuse.ch/sample/047356c9959ae7cec54ad32f38a94266ec21ae4d5af66e5bc5fb0c39edb78a12/",
-            "tags": "remcos",
-            "anonymous": "0",
-            "reporter": "abuse_ch"
-        }
-    ],
-    "1484373": [
-        {
-            "ioc_value": "https://webproinc.com/3e5e.js",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 12:22:54",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114273958273909875",
-            "tags": "KongTuke",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484374": [
-        {
-            "ioc_value": "webproinc.com",
-            "ioc_type": "domain",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 12:22:53",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114273958273909875",
-            "tags": "KongTuke",
-            "anonymous": "0",
-            "reporter": "monitorsg"
-        }
-    ],
-    "1484375": [
-        {
-            "ioc_value": "https://webproinc.com/js.php",
-            "ioc_type": "url",
-            "threat_type": "payload_delivery",
-            "malware": "js.fakeupdates",
-            "malware_alias": "FakeUpdate,SocGholish",
-            "malware_printable": "FAKEUPDATES",
-            "first_seen_utc": "2025-04-03 12:22:52",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://infosec.exchange/@monitorsg/114273958273909875",
-            "tags": "KongTuke",
-            "anonymous": "0",
-            "reporter": "monitorsg"
         }
     ]
 }
