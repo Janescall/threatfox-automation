@@ -1,4 +1,38 @@
 {
+    "1509057": [
+        {
+            "ioc_value": "3.81.69.245:5672",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.netsupportmanager_rat",
+            "malware_alias": "NetSupport",
+            "malware_printable": "NetSupportManager RAT",
+            "first_seen_utc": "2025-04-21 04:01:16",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/3.81.69.245",
+            "tags": "AMAZON-AES,AS14618,C2,censys,Netsupport,RAT",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
+    "1509046": [
+        {
+            "ioc_value": "85.9.200.235:4443",
+            "ioc_type": "ip:port",
+            "threat_type": "botnet_cc",
+            "malware": "win.sliver",
+            "malware_alias": null,
+            "malware_printable": "Sliver",
+            "first_seen_utc": "2025-04-21 04:00:56",
+            "last_seen_utc": null,
+            "confidence_level": 100,
+            "reference": "https://search.censys.io/hosts/85.9.200.235",
+            "tags": "AS202053,C2,censys,payload,Sliver,UPCLOUD",
+            "anonymous": "0",
+            "reporter": "DonPasci"
+        }
+    ],
     "1509032": [
         {
             "ioc_value": "185.193.125.249:4000",
@@ -9857,57 +9891,6 @@
             "tags": "c2,cobaltstrike,cs-watermark-987654321,shodan",
             "anonymous": "0",
             "reporter": "juroots"
-        }
-    ],
-    "1508422": [
-        {
-            "ioc_value": "52.91.218.1:101",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-04-19 04:01:07",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/52.91.218.1",
-            "tags": "AMAZON-AES,AS14618,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1508421": [
-        {
-            "ioc_value": "13.203.232.69:2052",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.netsupportmanager_rat",
-            "malware_alias": "NetSupport",
-            "malware_printable": "NetSupportManager RAT",
-            "first_seen_utc": "2025-04-19 04:01:06",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/13.203.232.69",
-            "tags": "AMAZON-02,AS16509,C2,censys,Netsupport,RAT",
-            "anonymous": "0",
-            "reporter": "DonPasci"
-        }
-    ],
-    "1508414": [
-        {
-            "ioc_value": "196.251.116.201:2007",
-            "ioc_type": "ip:port",
-            "threat_type": "botnet_cc",
-            "malware": "win.remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_printable": "Remcos",
-            "first_seen_utc": "2025-04-19 04:00:23",
-            "last_seen_utc": null,
-            "confidence_level": 100,
-            "reference": "https://search.censys.io/hosts/196.251.116.201",
-            "tags": "AS401116,C2,censys,NYBULA,RAT,Remcos",
-            "anonymous": "0",
-            "reporter": "DonPasci"
         }
     ]
 }
