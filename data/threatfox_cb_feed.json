@@ -9,895 +9,714 @@
     },
     "reports": [
         {
-            "id": "threatfox-AdaptixC2",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - AdaptixC2",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAdaptixC2",
-            "score": 100,
+            "id": "threatfox-Cobalt Strike",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Cobalt Strike",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ACobalt Strike",
+            "score": 75,
             "iocs": {
                 "ip": [
-                    "23.227.203.193",
-                    "123.249.103.174",
-                    "23.227.203.246"
+                    "150.158.21.250",
+                    "38.55.129.85",
+                    "121.61.101.67",
+                    "65.49.233.202",
+                    "1.94.41.160",
+                    "188.166.242.89",
+                    "54.46.46.248",
+                    "20.81.45.185",
+                    "8.137.9.110",
+                    "117.72.102.110",
+                    "47.101.186.122",
+                    "139.9.129.103",
+                    "110.41.152.105",
+                    "193.36.38.3",
+                    "45.197.149.17",
+                    "8.152.223.83",
+                    "13.221.71.52",
+                    "34.227.71.104",
+                    "81.70.241.213",
+                    "154.31.216.198",
+                    "118.178.231.121",
+                    "39.98.174.154",
+                    "43.133.211.161",
+                    "91.229.79.227",
+                    "115.238.252.51",
+                    "51.132.138.55",
+                    "116.205.143.204",
+                    "113.44.89.172",
+                    "62.60.232.34",
+                    "43.139.228.20",
+                    "111.231.145.137",
+                    "47.97.102.95",
+                    "196.251.71.213",
+                    "124.222.124.9",
+                    "43.159.57.217",
+                    "20.41.73.175",
+                    "8.155.0.157",
+                    "124.71.65.203",
+                    "118.195.156.76",
+                    "47.97.154.223",
+                    "129.28.106.184",
+                    "141.11.216.13",
+                    "85.175.101.203",
+                    "39.105.169.190",
+                    "23.165.104.90",
+                    "165.154.238.214",
+                    "47.245.61.75",
+                    "117.72.210.133",
+                    "47.76.30.15",
+                    "45.142.194.110"
+                ],
+                "domain": [
+                    "secure.optimumcs.org",
+                    "cas-aws.optimumcs.org",
+                    "vn3hg.optimumcs.org",
+                    "optimosphere.com",
+                    "tipo2.colchadretal.com",
+                    "o.optimumcs.org",
+                    "svchost.iqiyia.top",
+                    "yingjiachuwei.com"
                 ]
             }
         },
         {
-            "id": "threatfox-Quasar RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Quasar RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQuasar RAT",
+            "id": "threatfox-Qilin",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Qilin",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQilin",
+            "score": 50,
+            "iocs": {
+                "md5_hash": [
+                    "b4a6152514919a637c22a58bea316fc7",
+                    "8f946e4b90e434e2865449c212fe70c6",
+                    "5862f9fc9c9a0d766eba29eb4945f619",
+                    "3158a3849ea2695d6ec5aea6512fd030",
+                    "24a8fcd08d9e40d32929b57de9b15385",
+                    "a4247610f7194abfe4639868a2f7a446",
+                    "5d9b5e2e48c3d32993a28526d99daa0e",
+                    "a7ab0969bf6641cd0c7228ae95f6d217",
+                    "c716ff8dbcaf477aa386e4843fd79635",
+                    "6f893b1cc5cf534c59eabe932c1bf21e",
+                    "0d68a310f4265821900249bec89364c2",
+                    "457b4eeb5b9090476ea52ceccdf63c0b",
+                    "2674ad25fabe97a9eb10dcdbd32e4c9d",
+                    "4171f567e0b1f60ab6bb82c85c391fc4",
+                    "826a8e8c05983aa3a884d7abcfa473ac",
+                    "670fe8faaede4e2e033311fb662d2a4a",
+                    "f982da00c547913fd0ae7d0da0fc77e7",
+                    "348b0ce6af4698061678c8e92b4b2675",
+                    "6bef16999793f151cfb6012c34ca951c",
+                    "8ca5c9745e8a0e18167a9b932821645a",
+                    "dd475afd948cc22caa2a0f934d0aec52",
+                    "eb8cbf0dfc4d5c9f6a9a92e3f9f64327",
+                    "996c394d0f6d6967df9542c52f6f4661",
+                    "a9eaddd0ca6b06ff6c44b02ca9be1936",
+                    "53c8a4f0497929de4a5039b2c14bf426",
+                    "37aeb403ec4979626e2ec85380296439",
+                    "aeace70c1d26d699c0221e9acd0a43b2",
+                    "5cffa3126b9effc279d32b2cf4ef2278",
+                    "420a2c53386678396f972f09cc7f3a5c",
+                    "144183a4217ae0914ba0c865858d07cd",
+                    "44b610e323a470613649bb183e7a4250",
+                    "e7adc46e79fc8a44b986ef77dfb1f4c5",
+                    "e4c1add9f7606e3fa57976b908b4b375",
+                    "2f76a29d4e4292d7f29a29345717812c",
+                    "9ea321b6a0f069caab7092cfe1cbbde0"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-PoshC2",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - PoshC2",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3APoshC2",
             "score": 100,
             "iocs": {
-                "domain": [
-                    "sergei123323-34602.portmap.io",
-                    "anonam39-41248.portmap.io",
-                    "stores-replace.gl.at.ply.gg",
-                    "joshuasmith-59211.portmap.io",
-                    "gazaru-21459.portmap.io",
-                    "alexkasa-53195.portmap.io",
-                    "xikhudog2.duckdns.org"
-                ],
                 "ip": [
-                    "196.251.118.120",
-                    "109.207.171.238",
-                    "94.143.231.199",
-                    "45.194.37.132",
-                    "68.183.135.158",
-                    "160.22.106.113",
-                    "222.253.153.168",
-                    "31.57.219.29",
-                    "172.111.131.227",
-                    "185.241.208.96",
-                    "181.162.161.175"
+                    "51.20.96.197"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-MooBot",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - MooBot",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMooBot",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "185.72.9.246",
+                    "47.116.76.238",
+                    "103.245.231.8"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Unknown malware",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Unknown malware",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AUnknown malware",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "43.133.217.169",
+                    "115.190.44.241",
+                    "82.165.237.202",
+                    "185.219.84.239",
+                    "15.160.238.98",
+                    "104.237.139.40",
+                    "37.58.4.13",
+                    "16.170.225.228",
+                    "195.201.225.3",
+                    "103.150.93.21",
+                    "51.159.55.59",
+                    "212.192.13.121",
+                    "161.97.78.71",
+                    "188.245.97.61",
+                    "20.243.255.185",
+                    "49.113.75.214",
+                    "172.188.96.238",
+                    "47.121.135.220",
+                    "37.59.109.219",
+                    "68.183.42.215",
+                    "118.24.147.60",
+                    "45.144.55.34",
+                    "20.201.114.55",
+                    "83.229.120.159",
+                    "91.99.102.90",
+                    "35.224.87.59",
+                    "101.34.84.206",
+                    "139.162.132.15",
+                    "52.221.226.171",
+                    "20.232.116.210",
+                    "165.22.101.183",
+                    "18.221.91.216",
+                    "103.136.150.48",
+                    "45.91.169.228",
+                    "3.1.6.143",
+                    "68.183.190.74",
+                    "107.189.26.86",
+                    "43.130.49.131",
+                    "23.254.227.65",
+                    "66.63.163.133",
+                    "13.210.245.184",
+                    "157.185.143.236",
+                    "213.239.255.105",
+                    "23.27.48.113",
+                    "100.25.215.41",
+                    "13.210.190.167",
+                    "36.88.125.91"
+                ],
+                "domain": [
+                    "ec2-63-33-82-34.eu-west-1.compute.amazonaws.com",
+                    "fokeniz.com",
+                    "security.fwaregyord.com",
+                    "security.gyqardfilares.com",
+                    "down.ponjs.com",
+                    "security.cleodgiflaoer.com",
+                    "hewqol.com",
+                    "emeoxm.com"
                 ]
             }
         },
         {
             "id": "threatfox-Lumma Stealer",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Lumma Stealer",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ALumma Stealer",
             "score": 75,
             "iocs": {
                 "domain": [
-                    "shawq.xyz",
-                    "fantpx.xyz",
-                    "roriwfq.xyz",
+                    "twiory.xyz",
                     "rabqjz.xyz",
-                    "schrvk.xyz",
-                    "wrenthu.xyz",
-                    "censukpy.xyz",
-                    "aryxnw.xyz",
-                    "tarewry.xyz",
-                    "bowikth.xyz",
-                    "rapidht.xyz",
-                    "drafxc.xyz",
-                    "pyrolqi.xyz",
-                    "thumse.xyz",
-                    "ribbomv.xyz",
-                    "uncombsguq.xyz",
-                    "ripenue.xyz",
-                    "atrojr.xyz",
-                    "hickcsp.xyz",
-                    "cemeepv.xyz",
-                    "tamnmx.xyz",
+                    "furifli.xyz",
+                    "strkap.xyz",
                     "genusie.xyz",
-                    "scihvh.xyz",
-                    "bowmzf.xyz",
-                    "blotzm.xyz",
                     "eyermug.xyz",
-                    "galeuqqi.xyz",
-                    "atlgqc.xyz",
-                    "firddy.xyz",
-                    "colonj.xyz",
-                    "proxgn.xyz",
+                    "naturuk.xyz",
+                    "blolln.xyz",
+                    "inflvy.xyz",
+                    "leftlam.xyz",
+                    "silvyg.xyz",
+                    "kiddykk.xyz",
+                    "monteyh.xyz",
+                    "electis.xyz",
+                    "bowikth.xyz",
                     "gisqe.xyz",
-                    "shaypy.xyz",
-                    "glittmb.xyz",
-                    "quailnf.xyz",
-                    "agnioysz.xyz",
-                    "deangp.xyz",
-                    "monxxb.xyz",
-                    "portldu.xyz",
-                    "irrbi.xyz",
+                    "crimod.xyz",
+                    "stacdqi.xyz",
                     "voluntv.xyz",
+                    "spliba.xyz",
+                    "transzw.xyz",
+                    "trenrz.xyz",
+                    "bowmzf.xyz",
+                    "swejog.xyz",
+                    "crowngm.xyz",
+                    "tarewry.xyz",
+                    "agnioysz.xyz",
+                    "wrenthu.xyz",
+                    "monbd.xyz",
+                    "quailnf.xyz",
+                    "masor.xyz",
+                    "galeuqqi.xyz",
                     "wiggmyq.xyz",
                     "doneusb.xyz",
-                    "electis.xyz",
-                    "markwbp.xyz",
-                    "butaqud.xyz",
-                    "atomihc.xyz",
-                    "thuyrxi.xyz",
-                    "blolln.xyz",
-                    "leftlam.xyz",
-                    "anizwlg.xyz",
-                    "boysvf.xyz",
-                    "crowfza.xyz",
-                    "praimr.xyz",
                     "malvuqr.xyz",
-                    "silvyg.xyz",
-                    "crimod.xyz",
-                    "negotm.xyz",
-                    "stacdqi.xyz",
-                    "trenrz.xyz",
-                    "sunssek.xyz",
-                    "wzrx.live",
-                    "disunu.xyz",
-                    "mincpiu.xyz",
-                    "shaeb.xyz",
-                    "kiddykk.xyz",
-                    "greqjfu.xyz",
-                    "masor.xyz",
-                    "catachq.xyz",
-                    "kuwtpt.xyz",
-                    "swejog.xyz",
-                    "strkap.xyz",
-                    "naturuk.xyz",
-                    "furifli.xyz",
-                    "stifp.live",
-                    "stranlk.xyz",
+                    "ribbomv.xyz",
                     "matkdpy.xyz",
+                    "tamnmx.xyz",
                     "strinth.xyz",
-                    "bokcgjf.xyz",
+                    "monxxb.xyz",
+                    "deangp.xyz",
                     "restcr.xyz",
-                    "twiory.xyz",
-                    "norcgdu.xyz",
+                    "cemeepv.xyz",
+                    "anizwlg.xyz",
+                    "mincpiu.xyz",
+                    "thumse.xyz",
+                    "hickcsp.xyz",
+                    "censukpy.xyz",
+                    "scihvh.xyz",
+                    "atomihc.xyz",
+                    "shawq.xyz",
                     "tastqpk.xyz",
-                    "spliba.xyz",
-                    "monbd.xyz",
-                    "echimdi.xyz",
-                    "transzw.xyz",
-                    "monteyh.xyz",
+                    "blotzm.xyz",
+                    "catachq.xyz",
+                    "shaeb.xyz",
+                    "schrvk.xyz",
                     "aculpr.xyz",
-                    "splizl.xyz",
-                    "guttexq.xyz",
-                    "naturasixc.live",
-                    "sushst.xyz",
-                    "youngnu.xyz",
-                    "fritron.xyz",
-                    "crowngm.xyz",
-                    "inflvy.xyz",
+                    "irrbi.xyz",
                     "recipnh.xyz",
-                    "gasguip.xyz"
+                    "crowfza.xyz",
+                    "echimdi.xyz",
+                    "drafxc.xyz",
+                    "youngnu.xyz",
+                    "shaypy.xyz",
+                    "sushst.xyz",
+                    "fritron.xyz",
+                    "stifp.live",
+                    "glittmb.xyz",
+                    "uncombsguq.xyz",
+                    "gasguip.xyz",
+                    "disunu.xyz",
+                    "ripenue.xyz",
+                    "rapidht.xyz",
+                    "stranlk.xyz",
+                    "sunssek.xyz",
+                    "fantpx.xyz",
+                    "wzrx.live",
+                    "greqjfu.xyz",
+                    "boysvf.xyz",
+                    "proxgn.xyz",
+                    "firddy.xyz",
+                    "guttexq.xyz",
+                    "negotm.xyz",
+                    "colonj.xyz",
+                    "kuwtpt.xyz",
+                    "atrojr.xyz",
+                    "portldu.xyz",
+                    "thuyrxi.xyz",
+                    "butaqud.xyz",
+                    "markwbp.xyz",
+                    "praimr.xyz",
+                    "atlgqc.xyz",
+                    "splizl.xyz",
+                    "roriwfq.xyz",
+                    "naturasixc.live",
+                    "pyrolqi.xyz",
+                    "aryxnw.xyz",
+                    "bokcgjf.xyz",
+                    "norcgdu.xyz"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-NetSupportManager RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - NetSupportManager RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANetSupportManager RAT",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "16.50.207.238",
+                    "3.25.170.205",
+                    "13.56.230.93",
+                    "15.160.190.238",
+                    "179.95.196.96",
+                    "16.51.166.1",
+                    "13.246.12.142",
+                    "16.78.105.149",
+                    "3.135.194.28",
+                    "54.65.225.126",
+                    "37.13.21.44",
+                    "43.203.235.164",
+                    "35.152.54.190",
+                    "51.16.244.165"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-AsyncRAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - AsyncRAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAsyncRAT",
+            "score": 100,
+            "iocs": {
+                "domain": [
+                    "3389.iis7.com",
+                    "otherwise-puzzle.gl.at.ply.gg",
+                    "3389.iis7.net"
+                ],
+                "ip": [
+                    "159.223.193.191",
+                    "163.5.210.49",
+                    "196.251.84.202",
+                    "196.251.115.59",
+                    "147.124.216.223",
+                    "196.251.70.71",
+                    "192.142.0.51",
+                    "195.182.25.58",
+                    "172.94.96.144",
+                    "110.42.59.58",
+                    "196.251.66.21",
+                    "213.209.143.188",
+                    "172.94.96.209",
+                    "88.252.167.136",
+                    "176.98.8.51",
+                    "213.209.143.110",
+                    "196.251.72.112",
+                    "45.138.16.131",
+                    "185.241.208.187",
+                    "8.148.239.70"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Quasar RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Quasar RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQuasar RAT",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "31.57.219.29",
+                    "94.143.231.199",
+                    "222.253.153.168",
+                    "45.194.37.132",
+                    "196.251.118.120",
+                    "109.207.171.238",
+                    "181.162.161.175",
+                    "160.22.106.113",
+                    "185.241.208.96",
+                    "68.183.135.158",
+                    "172.111.131.227"
+                ],
+                "domain": [
+                    "alexkasa-53195.portmap.io",
+                    "stores-replace.gl.at.ply.gg",
+                    "sergei123323-34602.portmap.io",
+                    "xikhudog2.duckdns.org",
+                    "gazaru-21459.portmap.io",
+                    "anonam39-41248.portmap.io",
+                    "joshuasmith-59211.portmap.io"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Sliver",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Sliver",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ASliver",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "45.84.208.248",
+                    "13.78.86.133",
+                    "80.78.28.248",
+                    "80.78.22.242",
+                    "113.45.75.45",
+                    "23.27.124.169",
+                    "45.148.10.118",
+                    "86.106.85.43",
+                    "91.184.245.56",
+                    "110.41.44.100",
+                    "212.8.251.222",
+                    "84.235.173.87",
+                    "129.204.45.99",
+                    "144.172.116.93"
                 ]
             }
         },
         {
             "id": "threatfox-Predator The Thief",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Predator The Thief",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3APredator The Thief",
             "score": 50,
             "iocs": {
                 "domain": [
-                    "pinnedplace.com",
-                    "caddylane.com",
-                    "mystudyup.com",
-                    "gamestuts.com",
-                    "infoshoutout.com",
-                    "craftilly.com",
-                    "c3p0solutions.com",
+                    "shopstodrop.com",
+                    "statuepops.com",
                     "gilfonts.com",
-                    "unibilateral.com",
-                    "streamable-vid.com",
                     "branchbreeze.com",
-                    "gobbledgums.com",
-                    "asistentcomercialonline.com",
-                    "boundbreeze.com",
-                    "humansprinter.com",
-                    "speedbrawse.com",
+                    "secsafty.com",
                     "gettravelright.com",
-                    "steepmatch.com",
-                    "noticiafresca.net",
-                    "mountinnovate.com",
-                    "clockpatcher.com",
-                    "traillites.com",
-                    "strictplace.com",
-                    "openstreetpro.com",
-                    "canylane.com",
-                    "zipzone.io",
-                    "svcsync.com",
-                    "dollgoodies.com",
-                    "drivemountain.com",
+                    "stableconnect.net",
+                    "longtester.com",
+                    "onelifestyle24.com",
                     "barbequebros.com",
+                    "caddylane.com",
+                    "nightskyco.com",
+                    "infoshoutout.com",
+                    "noticiafamosos.com",
+                    "colabfile.com",
+                    "eclipsemonitor.com",
+                    "streamable-vid.com",
+                    "gamestuts.com",
+                    "zipzone.io",
+                    "c3p0solutions.com",
+                    "gobbledgums.com",
+                    "pedalmastery.com",
+                    "steepmatch.com",
+                    "craftilly.com",
+                    "strictplace.com",
+                    "noticiafresca.net",
                     "lawrdo.com",
+                    "mountinnovate.com",
                     "mdundobeats.com",
                     "wtar.io",
-                    "secsafty.com",
-                    "noticiafamosos.com",
-                    "stableconnect.net",
-                    "roadsidefoodie.com",
-                    "flickerxxx.com",
-                    "shopstodrop.com",
-                    "trigship.com",
-                    "statuepops.com",
-                    "myprivatedrive.net",
                     "remixspot.com",
-                    "longtester.com",
-                    "myread.io",
-                    "nightskyco.com",
-                    "themastersphere.com",
-                    "updatepoints.com",
-                    "colabfile.com",
-                    "onelifestyle24.com",
+                    "drivemountain.com",
                     "mappins.io",
-                    "keep-badinigroups.com",
-                    "secneed.com",
-                    "pedalmastery.com",
+                    "traillites.com",
+                    "clockpatcher.com",
+                    "myprivatedrive.net",
                     "mundoautopro.com",
-                    "eclipsemonitor.com",
-                    "starryedge.com"
+                    "canylane.com",
+                    "dollgoodies.com",
+                    "keep-badinigroups.com",
+                    "svcsync.com",
+                    "pinnedplace.com",
+                    "openstreetpro.com",
+                    "mystudyup.com",
+                    "myread.io",
+                    "trigship.com",
+                    "themastersphere.com",
+                    "speedbrawse.com",
+                    "boundbreeze.com",
+                    "flickerxxx.com",
+                    "starryedge.com",
+                    "unibilateral.com",
+                    "updatepoints.com",
+                    "roadsidefoodie.com",
+                    "humansprinter.com",
+                    "secneed.com",
+                    "asistentcomercialonline.com"
                 ]
             }
         },
         {
             "id": "threatfox-Remcos",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Remcos",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ARemcos",
             "score": 100,
             "iocs": {
                 "ip": [
-                    "196.251.116.72",
-                    "185.156.72.125",
                     "198.55.98.155",
-                    "172.111.189.19",
-                    "216.9.225.221",
-                    "196.251.118.164",
-                    "196.251.118.157",
-                    "103.202.55.193",
-                    "45.131.108.248",
-                    "162.225.105.220",
-                    "5.188.166.115",
-                    "37.252.14.141",
                     "69.10.40.172",
-                    "77.105.138.209",
-                    "209.54.103.171",
-                    "86.38.225.10",
-                    "93.127.160.198",
-                    "205.209.99.214",
+                    "196.251.118.157",
+                    "5.188.166.115",
                     "79.110.50.74",
-                    "196.251.88.18"
+                    "209.54.103.171",
+                    "162.225.105.220",
+                    "185.156.72.125",
+                    "216.9.225.221",
+                    "205.209.99.214",
+                    "196.251.118.164",
+                    "172.111.189.19",
+                    "103.202.55.193",
+                    "37.252.14.141",
+                    "86.38.225.10",
+                    "196.251.88.18",
+                    "196.251.116.72",
+                    "77.105.138.209",
+                    "93.127.160.198",
+                    "45.131.108.248"
                 ],
                 "domain": [
                     "teamfavour222.ddns.net",
-                    "donmichiko.com",
                     "odogwuvisual123.duckdns.org",
                     "honeypot.ooguy.com",
-                    "odijohn.duckdns.org",
                     "dondodovn.com",
+                    "odijohn.duckdns.org",
+                    "donmichiko.com",
                     "fernandolopez105040.duckdns.org"
                 ]
             }
         },
         {
-            "id": "threatfox-Hook",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Hook",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AHook",
-            "score": 100,
+            "id": "threatfox-XenoRAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - XenoRAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXenoRAT",
+            "score": 50,
             "iocs": {
-                "ip": [
-                    "83.217.209.171",
-                    "92.246.139.114",
-                    "172.94.96.122",
-                    "121.127.231.161",
-                    "121.127.231.198"
+                "domain": [
+                    "sergei123323-28857.portmap.io"
                 ]
             }
         },
         {
             "id": "threatfox-Ghost RAT",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Ghost RAT",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AGhost RAT",
             "score": 75,
             "iocs": {
                 "ip": [
                     "91.4.38.105",
+                    "27.124.34.101",
                     "1.94.163.46",
                     "27.124.34.95"
                 ]
             }
         },
         {
-            "id": "threatfox-Cobalt Strike",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Cobalt Strike",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ACobalt Strike",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "110.41.152.105",
-                    "175.178.155.183",
-                    "38.55.129.85",
-                    "85.175.101.203",
-                    "150.158.21.250",
-                    "124.71.65.203",
-                    "20.41.73.175",
-                    "51.132.138.55",
-                    "8.155.0.157",
-                    "115.238.252.51",
-                    "62.60.232.34",
-                    "121.61.101.67",
-                    "118.178.231.121",
-                    "43.139.228.20",
-                    "8.137.9.110",
-                    "81.70.241.213",
-                    "47.97.102.95",
-                    "139.9.129.103",
-                    "117.72.102.110",
-                    "39.105.169.190",
-                    "8.152.223.83",
-                    "43.159.57.217",
-                    "23.165.104.90",
-                    "193.36.38.3",
-                    "196.251.71.213",
-                    "47.76.30.15",
-                    "141.11.216.13",
-                    "188.166.242.89",
-                    "1.94.41.160",
-                    "47.101.186.122",
-                    "45.142.194.110",
-                    "113.44.89.172",
-                    "47.245.61.75",
-                    "165.154.238.214",
-                    "117.72.210.133",
-                    "91.229.79.227",
-                    "39.98.174.154",
-                    "54.46.46.248",
-                    "45.197.149.17",
-                    "124.222.124.9",
-                    "65.49.233.202",
-                    "154.31.216.198",
-                    "118.195.156.76",
-                    "129.28.106.184",
-                    "47.97.154.223",
-                    "43.133.211.161"
-                ],
-                "domain": [
-                    "secure.optimumcs.org",
-                    "o.optimumcs.org",
-                    "vn3hg.optimumcs.org",
-                    "svchost.iqiyia.top",
-                    "tipo2.colchadretal.com",
-                    "yingjiachuwei.com",
-                    "optimosphere.com",
-                    "cas-aws.optimumcs.org"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Havoc",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Havoc",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AHavoc",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "193.181.209.35",
-                    "77.90.153.154",
-                    "144.172.98.124",
-                    "65.87.7.206",
-                    "151.242.189.33",
-                    "13.49.73.176",
-                    "217.154.120.115"
-                ],
-                "domain": [
-                    "tavkz.duckdns.org",
-                    "soc-team.de"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Unknown malware",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Unknown malware",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AUnknown malware",
-            "score": 50,
-            "iocs": {
-                "ip": [
-                    "212.192.13.121",
-                    "36.88.125.91",
-                    "43.130.49.131",
-                    "107.189.26.86",
-                    "43.133.217.169",
-                    "51.159.55.59",
-                    "100.25.215.41",
-                    "101.34.84.206",
-                    "165.22.101.183",
-                    "37.59.109.219",
-                    "103.136.150.48",
-                    "45.144.55.34",
-                    "49.113.75.214",
-                    "66.63.163.133",
-                    "23.254.227.65",
-                    "161.97.78.71",
-                    "20.243.255.185",
-                    "82.165.237.202",
-                    "35.224.87.59",
-                    "15.160.238.98",
-                    "83.229.120.159",
-                    "68.183.42.215",
-                    "13.210.190.167",
-                    "185.219.84.239",
-                    "20.232.116.210",
-                    "104.237.139.40",
-                    "103.150.93.21",
-                    "172.188.96.238",
-                    "47.121.135.220",
-                    "188.245.97.61",
-                    "139.162.132.15",
-                    "52.221.226.171",
-                    "23.27.48.113",
-                    "13.210.245.184",
-                    "45.91.169.228",
-                    "118.24.147.60",
-                    "20.201.114.55",
-                    "37.58.4.13",
-                    "157.185.143.236"
-                ],
-                "domain": [
-                    "security.gyqardfilares.com",
-                    "fokeniz.com",
-                    "security.fwaregyord.com",
-                    "hewqol.com"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-NetSupportManager RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - NetSupportManager RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANetSupportManager RAT",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "37.13.21.44",
-                    "43.203.235.164",
-                    "16.78.105.149",
-                    "51.16.244.165",
-                    "15.160.190.238",
-                    "3.135.194.28",
-                    "54.65.225.126",
-                    "13.56.230.93",
-                    "16.51.166.1",
-                    "3.25.170.205",
-                    "179.95.196.96",
-                    "35.152.54.190",
-                    "16.50.207.238"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-DeimosC2",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - DeimosC2",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADeimosC2",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "15.197.136.197",
-                    "16.64.1.126",
-                    "18.254.206.228",
-                    "3.31.201.205",
-                    "182.30.42.204",
-                    "182.30.83.234",
-                    "56.136.247.220"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-QakBot",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - QakBot",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQakBot",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "176.44.51.78",
-                    "2.50.12.161",
-                    "186.106.221.0"
-                ]
-            }
-        },
-        {
             "id": "threatfox-Brute Ratel C4",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Brute Ratel C4",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ABrute Ratel C4",
             "score": 50,
             "iocs": {
                 "ip": [
+                    "212.69.167.73",
                     "185.75.240.211",
                     "13.115.124.159",
-                    "212.69.167.73",
                     "84.46.239.239"
                 ]
             }
         },
         {
+            "id": "threatfox-XWorm",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - XWorm",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXWorm",
+            "score": 100,
+            "iocs": {
+                "domain": [
+                    "units-jewish.gl.at.ply.gg",
+                    "forsondu92.duckdns.org",
+                    "fierdevivre.duckdns.org",
+                    "embargogo2378.duckdns.org",
+                    "members-aye.gl.at.ply.gg",
+                    "counterstrike2-cheats.com",
+                    "nil.group.found",
+                    "council-its.gl.at.ply.gg"
+                ],
+                "ip": [
+                    "5.189.125.76",
+                    "107.173.62.143",
+                    "185.216.214.217",
+                    "172.245.152.216",
+                    "5.175.234.115",
+                    "46.246.6.4",
+                    "194.62.248.177"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-MimiKatz",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - MimiKatz",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMimiKatz",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "94.237.24.73",
+                    "85.9.218.232"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-ShadowPad",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - ShadowPad",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AShadowPad",
+            "score": 90,
+            "iocs": {
+                "ip": [
+                    "193.200.16.184"
+                ],
+                "domain": [
+                    "topmicrosoftmarketing.com"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-AdaptixC2",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - AdaptixC2",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAdaptixC2",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "123.249.103.174"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Nanocore RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Nanocore RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANanocore RAT",
+            "score": 50,
+            "iocs": {
+                "domain": [
+                    "mersenne502.noip.me"
+                ],
+                "ip": [
+                    "95.46.48.103"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-AMOS",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - AMOS",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAMOS",
+            "score": 75,
+            "iocs": {
+                "domain": [
+                    "cryptoinfo-allnews.com",
+                    "emailreddit.com",
+                    "macosx-app.com",
+                    "appxmacos.com",
+                    "cryptoinfnews.com",
+                    "apposx.com"
+                ],
+                "ip": [
+                    "188.92.28.186"
+                ]
+            }
+        },
+        {
             "id": "threatfox-Venom RAT",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Venom RAT",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AVenom RAT",
             "score": 100,
             "iocs": {
                 "ip": [
                     "213.209.143.110",
+                    "154.222.20.155",
                     "45.141.215.67",
-                    "154.222.20.155"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-AsyncRAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - AsyncRAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAsyncRAT",
-            "score": 100,
-            "iocs": {
-                "domain": [
-                    "3389.iis7.net",
-                    "3389.iis7.com",
-                    "otherwise-puzzle.gl.at.ply.gg"
-                ],
-                "ip": [
-                    "196.251.84.202",
-                    "213.209.143.188",
-                    "45.138.16.131",
-                    "172.94.96.144",
-                    "159.223.193.191",
-                    "196.251.115.59",
-                    "195.182.25.58",
-                    "196.251.72.112",
-                    "110.42.59.58",
-                    "172.94.96.209",
-                    "185.241.208.187",
-                    "8.148.239.70",
-                    "147.124.216.223",
-                    "176.98.8.51",
-                    "88.252.167.136",
-                    "163.5.210.49",
-                    "213.209.143.110",
-                    "192.142.0.51",
-                    "196.251.70.71"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-VIP Keylogger",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - VIP Keylogger",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AVIP Keylogger",
-            "score": 100,
-            "iocs": {
-                "domain": [
-                    "leedelectronics.top",
-                    "mail.leedelectronics.top"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-XWorm",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - XWorm",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXWorm",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "172.245.152.216",
-                    "185.216.214.217",
-                    "194.62.248.177",
-                    "46.246.6.4",
-                    "5.189.125.76",
-                    "5.175.234.115",
-                    "107.173.62.143"
-                ],
-                "domain": [
-                    "embargogo2378.duckdns.org",
-                    "units-jewish.gl.at.ply.gg",
-                    "nil.group.found",
-                    "council-its.gl.at.ply.gg",
-                    "fierdevivre.duckdns.org",
-                    "counterstrike2-cheats.com",
-                    "forsondu92.duckdns.org",
-                    "members-aye.gl.at.ply.gg"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-MooBot",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - MooBot",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMooBot",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "103.245.231.8",
-                    "47.116.76.238",
-                    "185.72.9.246"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Latrodectus",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Latrodectus",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ALatrodectus",
-            "score": 90,
-            "iocs": {
-                "ip": [
-                    "66.63.187.17",
-                    "185.39.18.100",
-                    "66.63.187.15"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-ValleyRAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - ValleyRAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AValleyRAT",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "43.100.118.243",
-                    "202.79.172.185"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Qilin",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Qilin",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQilin",
-            "score": 50,
-            "iocs": {
-                "md5_hash": [
-                    "2674ad25fabe97a9eb10dcdbd32e4c9d",
-                    "37aeb403ec4979626e2ec85380296439",
-                    "e7adc46e79fc8a44b986ef77dfb1f4c5",
-                    "2f76a29d4e4292d7f29a29345717812c",
-                    "826a8e8c05983aa3a884d7abcfa473ac",
-                    "144183a4217ae0914ba0c865858d07cd",
-                    "aeace70c1d26d699c0221e9acd0a43b2",
-                    "8ca5c9745e8a0e18167a9b932821645a",
-                    "eb8cbf0dfc4d5c9f6a9a92e3f9f64327",
-                    "348b0ce6af4698061678c8e92b4b2675",
-                    "4171f567e0b1f60ab6bb82c85c391fc4",
-                    "6bef16999793f151cfb6012c34ca951c",
-                    "996c394d0f6d6967df9542c52f6f4661",
-                    "24a8fcd08d9e40d32929b57de9b15385",
-                    "6f893b1cc5cf534c59eabe932c1bf21e",
-                    "f982da00c547913fd0ae7d0da0fc77e7",
-                    "457b4eeb5b9090476ea52ceccdf63c0b",
-                    "5cffa3126b9effc279d32b2cf4ef2278",
-                    "a9eaddd0ca6b06ff6c44b02ca9be1936",
-                    "dd475afd948cc22caa2a0f934d0aec52",
-                    "420a2c53386678396f972f09cc7f3a5c",
-                    "44b610e323a470613649bb183e7a4250",
-                    "670fe8faaede4e2e033311fb662d2a4a",
-                    "a7ab0969bf6641cd0c7228ae95f6d217",
-                    "c716ff8dbcaf477aa386e4843fd79635",
-                    "5862f9fc9c9a0d766eba29eb4945f619",
-                    "e4c1add9f7606e3fa57976b908b4b375",
-                    "8f946e4b90e434e2865449c212fe70c6",
-                    "a4247610f7194abfe4639868a2f7a446",
-                    "3158a3849ea2695d6ec5aea6512fd030",
-                    "9ea321b6a0f069caab7092cfe1cbbde0",
-                    "b4a6152514919a637c22a58bea316fc7",
-                    "5d9b5e2e48c3d32993a28526d99daa0e",
-                    "0d68a310f4265821900249bec89364c2",
-                    "53c8a4f0497929de4a5039b2c14bf426"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Sliver",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Sliver",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ASliver",
-            "score": 50,
-            "iocs": {
-                "ip": [
-                    "113.45.75.45",
-                    "45.84.208.248",
-                    "129.204.45.99",
-                    "84.235.173.87",
-                    "13.78.86.133",
-                    "144.172.116.93",
-                    "86.106.85.43",
-                    "91.184.245.56",
-                    "80.78.28.248",
-                    "45.148.10.118",
-                    "212.8.251.222",
-                    "80.78.22.242",
-                    "23.27.124.169"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-DCRat",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - DCRat",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADCRat",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "118.107.9.237",
-                    "92.118.113.110"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-MimiKatz",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - MimiKatz",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMimiKatz",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "85.9.218.232",
-                    "94.237.24.73"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Bashlite",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Bashlite",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ABashlite",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "31.56.39.249",
-                    "84.252.121.253"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-BlackShades",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - BlackShades",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ABlackShades",
-            "score": 50,
-            "iocs": {
-                "ip": [
-                    "3.36.49.39",
-                    "18.171.237.245"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Nanocore RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Nanocore RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANanocore RAT",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "95.46.48.103"
-                ],
-                "domain": [
-                    "mersenne502.noip.me"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-AMOS",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - AMOS",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAMOS",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "188.92.28.186"
-                ],
-                "domain": [
-                    "cryptoinfo-allnews.com",
-                    "macosx-app.com",
-                    "appxmacos.com",
-                    "cryptoinfnews.com",
-                    "emailreddit.com",
-                    "apposx.com"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Meterpreter",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Meterpreter",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMeterpreter",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "188.226.132.145",
-                    "5.83.218.183"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Xtreme RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Xtreme RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXtreme RAT",
-            "score": 50,
-            "iocs": {
-                "ip": [
-                    "147.135.36.161"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-WarmCookie",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - WarmCookie",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AWarmCookie",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "87.120.93.151"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Mozi",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Mozi",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMozi",
-            "score": 50,
-            "iocs": {
-                "ip": [
-                    "59.97.249.247"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Eye Pyramid",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Eye Pyramid",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AEye Pyramid",
-            "score": 75,
-            "iocs": {
-                "ip": [
-                    "44.210.30.173",
-                    "5.255.114.73"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-NjRAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - NjRAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANjRAT",
-            "score": 100,
-            "iocs": {
-                "domain": [
-                    "tibiaserver.ddns.net"
-                ],
-                "ip": [
-                    "159.223.193.191",
-                    "81.135.32.64"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Orcus RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Orcus RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AOrcus RAT",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "108.247.43.198"
+                    "193.138.195.22"
                 ]
             }
         },
         {
             "id": "threatfox-Mirai",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Mirai",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMirai",
             "score": 100,
@@ -915,85 +734,22 @@
             }
         },
         {
-            "id": "threatfox-Nimplant",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Nimplant",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANimplant",
-            "score": 100,
-            "iocs": {
-                "domain": [
-                    "waydownk.org"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-DarkComet",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - DarkComet",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADarkComet",
-            "score": 50,
-            "iocs": {
-                "domain": [
-                    "darkmist124.ddns.net",
-                    "avilor.ddns.net"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-SectopRAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - SectopRAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ASectopRAT",
-            "score": 50,
+            "id": "threatfox-QakBot",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - QakBot",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AQakBot",
+            "score": 75,
             "iocs": {
                 "ip": [
-                    "45.141.86.82"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-Chaos",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Chaos",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AChaos",
-            "score": 100,
-            "iocs": {
-                "ip": [
-                    "8.134.88.86",
-                    "47.110.132.52"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-ShadowPad",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - ShadowPad",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AShadowPad",
-            "score": 90,
-            "iocs": {
-                "ip": [
-                    "193.200.16.184"
-                ],
-                "domain": [
-                    "topmicrosoftmarketing.com"
-                ]
-            }
-        },
-        {
-            "id": "threatfox-NetWire RC",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - NetWire RC",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANetWire RC",
-            "score": 50,
-            "iocs": {
-                "domain": [
-                    "skibidi200-40665.portmap.io"
+                    "186.106.221.0",
+                    "176.44.51.78",
+                    "2.50.12.161"
                 ]
             }
         },
         {
             "id": "threatfox-Unknown Stealer",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Unknown Stealer",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AUnknown Stealer",
             "score": 100,
@@ -1004,47 +760,181 @@
             }
         },
         {
-            "id": "threatfox-Unknown RAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - Unknown RAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AUnknown RAT",
-            "score": 100,
+            "id": "threatfox-DeimosC2",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - DeimosC2",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADeimosC2",
+            "score": 75,
             "iocs": {
-                "domain": [
-                    "aprcare.help",
-                    "web.hvgeb.top"
+                "ip": [
+                    "3.31.201.205",
+                    "18.254.206.228",
+                    "16.64.1.126",
+                    "15.197.136.197",
+                    "56.136.247.220",
+                    "182.30.83.234",
+                    "182.30.42.204"
                 ]
             }
         },
         {
-            "id": "threatfox-XenoRAT",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - XenoRAT",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXenoRAT",
-            "score": 50,
+            "id": "threatfox-Eye Pyramid",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Eye Pyramid",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AEye Pyramid",
+            "score": 75,
             "iocs": {
-                "domain": [
-                    "sergei123323-28857.portmap.io"
+                "ip": [
+                    "5.255.114.73",
+                    "44.210.30.173"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Hook",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Hook",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AHook",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "92.246.139.114",
+                    "172.94.96.122",
+                    "121.127.231.161",
+                    "121.127.231.198",
+                    "83.217.209.171"
                 ]
             }
         },
         {
             "id": "threatfox-Rhadamanthys",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Rhadamanthys",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ARhadamanthys",
             "score": 100,
             "iocs": {
                 "ip": [
                     "45.156.87.109",
-                    "179.43.141.35",
-                    "45.156.87.126"
+                    "45.156.87.126",
+                    "179.43.141.35"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Bashlite",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Bashlite",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ABashlite",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "84.252.121.253",
+                    "31.56.39.249"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Havoc",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Havoc",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AHavoc",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "151.242.189.33",
+                    "13.49.73.176",
+                    "77.90.153.154",
+                    "217.154.120.115",
+                    "144.172.98.124",
+                    "65.87.7.206",
+                    "193.181.209.35"
+                ],
+                "domain": [
+                    "soc-team.de",
+                    "tavkz.duckdns.org"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Meterpreter",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Meterpreter",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMeterpreter",
+            "score": 75,
+            "iocs": {
+                "ip": [
+                    "188.226.132.145",
+                    "5.83.218.183"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-RedLine Stealer",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - RedLine Stealer",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ARedLine Stealer",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "194.156.79.167"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Latrodectus",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Latrodectus",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ALatrodectus",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "185.39.18.100",
+                    "66.63.187.15",
+                    "66.63.187.17"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Mozi",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Mozi",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AMozi",
+            "score": 50,
+            "iocs": {
+                "ip": [
+                    "59.97.249.247"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-DarkComet",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - DarkComet",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADarkComet",
+            "score": 50,
+            "iocs": {
+                "domain": [
+                    "avilor.ddns.net",
+                    "darkmist124.ddns.net"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-SectopRAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - SectopRAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ASectopRAT",
+            "score": 50,
+            "iocs": {
+                "ip": [
+                    "45.141.86.82",
+                    "66.63.187.22"
                 ]
             }
         },
         {
             "id": "threatfox-Aurotun Stealer",
-            "timestamp": 1750037130,
+            "timestamp": 1750055247,
             "title": "ThreatFox IOC - Aurotun Stealer",
             "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AAurotun Stealer",
             "score": 100,
@@ -1055,26 +945,157 @@
             }
         },
         {
-            "id": "threatfox-PoshC2",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - PoshC2",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3APoshC2",
-            "score": 100,
+            "id": "threatfox-BlackShades",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - BlackShades",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ABlackShades",
+            "score": 50,
             "iocs": {
                 "ip": [
-                    "51.20.96.197"
+                    "3.36.49.39",
+                    "18.171.237.245"
                 ]
             }
         },
         {
-            "id": "threatfox-RedLine Stealer",
-            "timestamp": 1750037130,
-            "title": "ThreatFox IOC - RedLine Stealer",
-            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ARedLine Stealer",
+            "id": "threatfox-Unknown RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Unknown RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AUnknown RAT",
+            "score": 100,
+            "iocs": {
+                "domain": [
+                    "web.hvgeb.top",
+                    "aprcare.help"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-NjRAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - NjRAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANjRAT",
             "score": 100,
             "iocs": {
                 "ip": [
-                    "194.156.79.167"
+                    "81.135.32.64",
+                    "159.223.193.191"
+                ],
+                "domain": [
+                    "tibiaserver.ddns.net"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Nimplant",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Nimplant",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANimplant",
+            "score": 100,
+            "iocs": {
+                "domain": [
+                    "waydownk.org"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-WarmCookie",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - WarmCookie",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AWarmCookie",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "87.120.93.151"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-VIP Keylogger",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - VIP Keylogger",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AVIP Keylogger",
+            "score": 100,
+            "iocs": {
+                "domain": [
+                    "mail.leedelectronics.top",
+                    "leedelectronics.top"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-DCRat",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - DCRat",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ADCRat",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "92.118.113.110",
+                    "118.107.9.237"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Xtreme RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Xtreme RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AXtreme RAT",
+            "score": 50,
+            "iocs": {
+                "ip": [
+                    "147.135.36.161"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-ValleyRAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - ValleyRAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AValleyRAT",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "43.100.118.243",
+                    "202.79.172.185"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Orcus RAT",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Orcus RAT",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AOrcus RAT",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "108.247.43.198",
+                    "113.22.204.121"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-NetWire RC",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - NetWire RC",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3ANetWire RC",
+            "score": 50,
+            "iocs": {
+                "domain": [
+                    "skibidi200-40665.portmap.io"
+                ]
+            }
+        },
+        {
+            "id": "threatfox-Chaos",
+            "timestamp": 1750055247,
+            "title": "ThreatFox IOC - Chaos",
+            "link": "https://threatfox.abuse.ch/browse.php?search=malware%3AChaos",
+            "score": 100,
+            "iocs": {
+                "ip": [
+                    "8.134.88.86",
+                    "47.110.132.52"
                 ]
             }
         }
